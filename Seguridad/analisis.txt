@@ -58,13 +58,146 @@ aun cuando no se haya producido ninguna vulneravilidad
 4:Determinar el impacto
 5:Determinar el riesgo
 
- #Estrategias de respuesta ante un riesgo
- ##Gestión del riesgo
- ###Dejar de realizar la actividad que ocasiona el riesgo
- ##Transferencia del riesgo
- ###Asignar la responsabilidad del riesgo a otra probablemente
- ##Mitigación del riesgo
- ###Implementar un control para reducir el riesgo
- ##Aceptación del riesgo
- ###No hacer nada para reducir el riesgo, pero monitorearlo y planificar un respuesta
-  
+#Estrategias de respuesta ante un riesgo
+##Gestión del riesgo
+###Dejar de realizar la actividad que ocasiona el riesgo
+##Transferencia del riesgo
+###Asignar la responsabilidad del riesgo a otra probablemente
+##Mitigación del riesgo
+###Implementar un control para reducir el riesgo
+##Aceptación del riesgo
+###No hacer nada para reducir el riesgo, pero monitorearlo y planificar un respuesta
+
+Beneficios del monitoreo y registro de riesgos
+#Gobernanza de TI más eficaz
+#Conformidad normativa
+#Conformidad y validación del rendimiento del SLA 
+#Mejor supervisión de la Gestión
+#Control de cambios más eficaz
+#Apoyo a la seguridad de la información corporativa
+#Identificación y resolución más coherentes de los problemas
+
+#Monitoreo frente a registro
+##Registros
+###Proporcionan datos utilizados para examinar los sistemas y procesos de TI
+###Pueden ser tanto entradas como salidas de monitoreo
+##Monitorear los registros de:
+###cambios
+###Excepciones
+###Otros acontecimientos significativos
+##Los registros producidos a partir del monitoreo se convierten en registros para su posterior Análisis
+
+#Uso de métricas
+##Las métricas miden el éxito del programa de seguridad
+##Para un programa de seguridad, las métricas pueden ser ttanto positivas como negativas
+
+#Ejemplo de programa de seguridad
+##Números de ataques que se han producido
+##Números de ataques detenidos
+##Dinero ahorrado
+##ID creados
+##ID revocados
+##Capacitación en concienciación sobre la seguridad
+
+#Monitoreo del entorno
+##Monitoreo
+###Una política de uso aceptable (AUP) de una empresa define cómo se puede monitorear a los empleados o usuarios en la red de una empresa
+####En el trabajo
+####De forma remota
+####En dispositivos móviles
+
+#Tipos de monitoreo
+##Ubicación
+###In situ : El monitoreo se realiza directamente en el lugar donde ocurre el fenómeno, sin mover, alterar o trasladar nada.
+###remota
+###Interna o externa
+###Subcontratada
+
+##Recurso
+###sistema
+###Red
+###Base de datos
+###Físico
+###Empleado
+
+##Uso
+###Uso o consumo
+###Ubicación
+###¿Quién puede acceder a esta información
+
+#Monitoreo como servicio (MaaS)
+##Insfraestructura de monitoreo basada en la nube
+##Toda la Insfraestructurase implementa en la nube
+##Proporciona acceso a la información de monitoreo en cualquier momento y lugar
+
+#Dispotivos que  podrían monitorearse
+##Enrutador
+##Conmutador
+##Firewall
+##Punto de acceso (AP) inalámbrico
+##Impresora
+##Concentrador de red privada virtual(VPN)
+##Cámara
+##Lector de tarjetas
+##Laptop
+##Teléfono
+##Tableta
+##Vehículo
+
+#Política de monitoreo
+##Cuando desarrolle una política de monitoreo,hágase las siguientes preguntas:
+###¿Qué debo monitorear?
+###¿Qué tan cerca debo realizar dicho monitoreo?
+###¿Con qué frecuencia debo realizar el monitoreo?
+###¿Quién lo realiza?
+###¿Se debe contratar dicha tarea?
+    -Monitoreo de la retención de datos
+    -Acceso a herramientas de monitoreo 
+    -Monitoreo remoto
+###¿Quién controla a quienes realizan los controles?
+    -Política
+    -Reglas
+
+#Política de retención del monitoreo
+
+##La política de retención indica el tiempo durante el que se conservan los distintos tipos de datos:
+
+-Correo electronico
+-Registros de acceso
+-Cámara o video
+-Información de contacto del cliente
+-Registros de ventas
+-Registros de envío
+-Escaneos corporales en el aeropuerto
+-Registros de fabricación
+-Datos financieros
+-Registros de seguros(como la multa por exceso de velocidad o el accidente mas reciente)
+-Información médica
+-Antecedentes penales
+-Registros de empleados
+-Redes sociales
+
+#Registro
+##Política de registro
+###Defina una política de registro para identificar qué se registrará y como se administrarán los registros
+###Asegúrese de que tanto la política de registro como la infraestructura admitan una solución empresarial
+
+#Herramientas de registro
+##Utilice diferentes herramientas para monitorear distintos aspectos del entorno
+##Establezca una infraestructura de administración de registros en toda la empresa
+
+#Protección de la información de registro
+##Mantenga registros en el dispositivo original, en un servidor de registros, o en ambos
+##Controle el acceso físico y lógico a un servidor de registros:
+##Proceso de copia de seguridad o recuperación de registros
+##Política de retención
+##Marcas temporales
+
+#Conclusiones clave
+##El objetivo del Análisis de la seguridad es reforzaar los controles de seguridad para mantener mejor la red, las intalaciones y la organización
+
+##Las pruebas, el monitoreo y los registros son actividades clave que sustentan la realización del análisis de la seguridad
+
+##Una política de monitoreo define todos los detalles relativos a qué,quién, cuándo y cómo se llevará a cabo el monitoreo
+
+##Una política de registros identifica qué se debe registrar y cómo se deben administrar los registros 
