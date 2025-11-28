@@ -146,7 +146,7 @@ Una **Política de Uso Aceptable (AUP)** define cómo se monitora a empleados o 
 # 📡 Tipos de monitoreo
 
 ## Por ubicación
-- In situ  
+- In situ  :El monitoreo se realiza directamente en el lugar donde ocurre el fenómeno, sin mover, alterar o trasladar nada.
 - Remoto  
 - Interno o externo  
 - Subcontratado  
