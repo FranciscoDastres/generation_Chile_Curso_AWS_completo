@@ -5,3 +5,5 @@ VALUES ("val_1","val_2","val_3","val_4","val_5")
 DESCRIBE tablename
 -- null--
 INSERT INTO tablename (col_1) VALUES (null);
+
+Select name, population from world.country WHERE NAME = "Chile"
