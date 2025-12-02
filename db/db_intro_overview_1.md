@@ -277,3 +277,29 @@
 # ¿Cuál es el propósito de un DBMS?
 El DBMS administra, organiza, protege y permite acceder a los datos, de forma eficiente, segura y estructurada.
 
+# Conceptos Clave de Bases de Datos
+
+## 📘 Bases de Datos Relacionales (SQL)
+Una **base de datos relacional** —también conocida como **base de datos SQL**— organiza la información en **tablas** formadas por filas y columnas.  
+Este enfoque permite distribuir los datos en varias tablas relacionadas entre sí, reduciendo redundancia y mejorando la integridad de la información.
+
+## 📙 Bases de Datos No Relacionales (NoSQL)
+Una **base de datos no relacional** —o **NoSQL**— no utiliza el modelo tradicional basado en tablas.  
+En su lugar, almacena los datos en **estructuras flexibles**, como documentos JSON, pares clave-valor, grafos o columnas, lo que permite una gran adaptabilidad a datos variados o no estructurados.
+
+## 🖥️ Sistema de Gestión de Bases de Datos (DBMS)
+Un **DBMS** (Database Management System) es el software encargado de proporcionar toda la funcionalidad necesaria para trabajar con bases de datos:  
+almacenamiento, consultas, seguridad, respaldo, integridad de datos y administración general.
+
+## 🔄 Formas de Interacción con Datos
+Existen cuatro formas comunes en que los usuarios o aplicaciones interactúan con una base de datos:
+
+1. **Interacción directa** – Comandos SQL ejecutados desde una consola o herramienta de gestión.  
+2. **Cliente-servidor** – Un cliente envía consultas al servidor de base de datos mediante una interfaz.  
+3. **Incrustación en código de aplicación** – El código de la aplicación contiene instrucciones SQL para manipular datos.  
+4. **Aplicación de tres niveles** – Arquitectura web donde cliente, servidor de aplicación y servidor de base de datos trabajan en conjunto.
+
+## 🏞️ Lago de Datos (Data Lake)
+Un **lago de datos** funciona como un gran repositorio de información en la nube.  
+Permite almacenar datos estructurados y no estructurados y ejecutar distintos tipos de análisis: paneles de control, visualizaciones, procesamiento de big data, análisis en tiempo real y modelos de aprendizaje automático.
+
