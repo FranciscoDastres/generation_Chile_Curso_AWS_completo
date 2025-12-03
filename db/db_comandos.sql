@@ -7,3 +7,6 @@ DESCRIBE tablename
 INSERT INTO tablename (col_1) VALUES (null);
 
 Select name, population from world.country WHERE NAME = "Chile"
+
+Where = condition
+
