@@ -138,3 +138,14 @@ De forma predeterminada, este registro está deshabilitado.
   - Habilitar MFA en la cuenta raíz.
   - Registrar el acceso a buckets S3 para auditorías.
 
+# Las dos verificaciones de Trusted Advisor que están disponibles sin costo son:
+
+* Autenticación multifactor (MFA) en la cuenta raíz
+
+* Uso de AWS Identity and Access Management (IAM)
+
+# El umbral que dispara la advertencia de Trusted Advisor en la verificación de límites de servicio de 80%
+
+# AWS Trusted Advisor genera el estado de verificacion rojo Grupo de seguridad: Acceso sin restricciones.
+
+* Agregar reglas que brinden acceso a algunas direcciones IP autorizadas al grupo de seguridad identificado.
