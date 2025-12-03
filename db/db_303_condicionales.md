@@ -259,3 +259,42 @@ Resumen simple:
 - `art%` → inicio  
 - `%art` → final  
 - `%art%` → en cualquier parte  
+
+# Comodines y Expresiones Regulares en SQL
+
+Este documento explica cómo buscar patrones en texto utilizando:
+
+- **Comodines con `LIKE`**
+- **Expresiones regulares con `REGEXP` / `RLIKE`**
+
+Incluye ejemplos claros y comparaciones entre ambas técnicas.
+
+---
+
+# 1. Comodines con LIKE
+
+El operador `LIKE` permite realizar búsquedas simples de patrones.  
+Los comodines principales son:
+
+| Comodín | Significado |
+|---------|-------------|
+| `%`     | Cero o más caracteres |
+| `_`     | Un solo carácter |
+
+---
+
+## 1.1 Patrones más usados
+
+### Buscar al inicio
+```sql
+WHERE columna LIKE 'art%'
+
+# 📌 Expresiones Regulares (REGEXP) en SQL
+
+Las **expresiones regulares** permiten hacer búsquedas más avanzadas que `LIKE`, detectando patrones complejos dentro del texto.
+
+---
+
+## 🔍 Sintaxis general
+```sql
+WHERE columna REGEXP 'patrón';
