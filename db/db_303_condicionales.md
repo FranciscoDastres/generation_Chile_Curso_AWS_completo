@@ -86,3 +86,39 @@ WHERE nombre LIKE 'Fran%';
 -- EXISTS
 SELECT * FROM categorias c
 WHERE EXISTS (SELECT 1 FROM productos p WHERE p.categoria_id = c.id);
+
+# Prioridad de Operadores en SQL
+
+El orden de precedencia determina qué operadores se evalúan primero en una expresión.  
+A continuación se muestra la jerarquía desde **mayor prioridad (1)** hasta **menor prioridad (9)**.
+
+---
+
+## Tabla de prioridad de operadores
+
+| Nivel | Operadores |
+|-------|------------|
+| **1** | `+` (Positivo), `-` (Negativo), `~` (NOT bit a bit) |
+| **2** | `*` (Multiplicación), `/` (División), `%` (Módulo) |
+| **3** | `+` (Suma), `+` (Concatenación), `-` (Resta) |
+| **4** | `=`, `>`, `<`, `>=`, `<=`, `<>`, `!=`, `!>`, `!<` *(Operadores de comparación)* |
+| **5** | `^` (OR exclusivo bit a bit), `&` (AND bit a bit), `|` (OR bit a bit) |
+| **6** | `NOT` |
+| **7** | `AND` |
+| **8** | `ALL`, `ANY`, `BETWEEN`, `IN`, `LIKE`, `OR`, `SOME` |
+| **9** | `=` (Asignación) |
+
+---
+
+## Ejemplo ilustrativo
+
+```sql
+-- Ejemplo demostrando la prioridad
+SELECT 5 + 10 * 2 > 20 AND 3 IN (1, 2, 3);
+
+-- Se evalúa así:
+-- 10 * 2        -> nivel 2
+-- 5 + 20        -> nivel 3
+-- 25 > 20       -> nivel 4
+-- 3 IN (...)    -> nivel 8
+-- resultado1 AND resultado2 -> nivel 7
