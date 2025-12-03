@@ -206,3 +206,56 @@ Esto provoca resultados especiales cuando se combina con operadores lógicos com
 ```sql
 SELECT * FROM empleados
 WHERE fecha_retiro IS NULL;
+
+Filtrado con coincidencia de patrones en SQL
+
+# Coincidencia de patrones con LIKE
+
+Dada la siguiente tabla `titles`:
+
+| bktitle                          | slprice | partnum |
+|----------------------------------|---------|---------|
+| Starting a Small Garden          | 35.00   | 40321   |
+| Starting a Greenhouse            | 30.50   | 40322   |
+| The Art of Water Painting        | 34.50   | 40551   |
+| The Art of Oil Painting          | 34.50   | 40552   |
+| The Art of Pen and Ink Drawing   | 34.50   | 40553   |
+
+---
+
+## 1. Consulta 1 (sin LOWER)
+
+```sql
+SELECT bktitle, slprice, partnum
+FROM titles
+WHERE bktitle LIKE '%art%';
+-- si yo busco un texto con LIKE busca por patrones 
+
+SELECT bktitle, slprice, partnum
+FROM titles
+WHERE lower(bktitle) LIKE '%art%';
+-- en este caso puedo usar el where con minuscula para  la busqueda de patrones
+si yo quito el % de la izquierda con ese busco al inicio y si quito el de la derecha lo vera al final 
+
+# Resumen de patrones con LIKE
+
+| Patrón   | Significado | Coincide con | No coincide con |
+|----------|-------------|--------------|------------------|
+| `art%`   | Busca **al inicio** | `artista`, `art gallery` | `start`, `The art`, `cartoon` |
+| `%art`   | Busca **al final** | `smart`, `heart` | `artwork`, `art gallery` |
+| `%art%`  | Busca **en cualquier parte** | `start`, `cartel`, `The Art of Painting` | (solo cadenas sin `art`) |
+
+---
+
+## Ejemplos visuales
+
+- **`art%`** → comienza con `art`  
+
+
+---
+
+Resumen simple:
+
+- `art%` → inicio  
+- `%art` → final  
+- `%art%` → en cualquier parte  
