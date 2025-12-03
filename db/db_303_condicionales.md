@@ -122,3 +122,87 @@ SELECT 5 + 10 * 2 > 20 AND 3 IN (1, 2, 3);
 -- 25 > 20       -> nivel 4
 -- 3 IN (...)    -> nivel 8
 -- resultado1 AND resultado2 -> nivel 7
+
+# Uso de Alias en SQL
+
+Los **alias** permiten asignar un nombre temporal a columnas o tablas dentro de una consulta SQL.  
+Se utilizan principalmente para:
+
+- Hacer que los resultados sean más legibles.
+- Acortar nombres largos de tablas.
+- Facilitar el trabajo con subconsultas.
+- Mejorar la claridad cuando se usan funciones o cálculos.
+
+Los alias **no modifican** la estructura real de la base de datos: solo existen mientras se ejecuta la consulta.
+
+---
+
+## Alias para columnas
+
+Se usan para renombrar una columna en el resultado.  
+Puedes usar `AS` o simplemente un espacio.
+
+### Ejemplo:
+
+```sql
+SELECT nombre AS nombre_cliente,
+       edad AS años
+FROM usuarios;
+
+SELECT nombre nombre_cliente,
+       edad años
+FROM usuarios;
+
+SELECT u.nombre, o.total
+FROM usuarios AS u
+JOIN ordenes AS o
+    ON u.id = o.usuario_id;
+
+SELECT u.nombre, o.total
+FROM usuarios u
+JOIN ordenes o
+    ON u.id = o.usuario_id;
+
+SELECT precio * 0.19 AS iva,
+       precio + (precio * 0.19) AS precio_total
+FROM productos;
+
+SELECT p.nombre, ventas_totales.total
+FROM productos p
+JOIN (
+    SELECT producto_id, SUM(cantidad) AS total
+    FROM ventas
+    GROUP BY producto_id
+) ventas_totales
+ON p.id = ventas_totales.producto_id;
+
+# Pruebas con valores NULL en SQL
+
+Cuando se trabajan expresiones lógicas en SQL, el valor **NULL** representa “desconocido”.  
+Esto provoca resultados especiales cuando se combina con operadores lógicos como `AND` y `OR`.
+
+---
+
+## Resultados de operaciones lógicas con NULL
+
+| Expresión 1 | Expresión 2 | Resultado con **AND** | Resultado con **OR** |
+|-------------|-------------|------------------------|-----------------------|
+| TRUE        | NULL        | NULL                   | TRUE                  |
+| FALSE       | NULL        | FALSE                  | NULL                  |
+| NULL        | NULL        | NULL                   | NULL                  |
+| UNKNOWN     | FALSE       | FALSE                  | UNKNOWN               |
+
+---
+
+## Reglas importantes sobre NULL
+
+- **No se puede usar `=`, `<`, `<>`, `!=` ni ningún operador de comparación para evaluar NULL.**  
+- Para evaluar NULL debes usar:  
+  - `IS NULL`  
+  - `IS NOT NULL`
+
+### Ejemplo:
+
+```sql
+SELECT * FROM empleados
+WHERE fecha_retiro IS NULL;
