@@ -1,0 +1,239 @@
+# AWS Config - Guía de Estudio
+
+## ¿Qué es AWS Config?
+
+AWS Config es un servicio que permite monitorear y auditar las configuraciones de tus recursos de AWS para garantizar el cumplimiento y la trazabilidad. Config monitorea cambios continuamente y asegura que todo se mantenga conforme a las reglas establecidas.
+
+## Pitch / Propuesta de Valor
+
+**¿Sabes si tu infraestructura cumple con las políticas que definiste?**
+
+Config monitorea cambios y asegura que todo se mantenga conforme a las reglas establecidas.
+
+## Función Principal
+
+**Monitorear y auditar configuraciones de recursos AWS para cumplimiento y trazabilidad**
+
+Config proporciona visibilidad completa sobre cómo están configurados tus recursos, cómo han cambiado con el tiempo, y si cumplen con las políticas de tu organización.
+
+## Características Clave
+
+### Reglas de Configuración
+- **Reglas predefinidas**: AWS proporciona reglas administradas listas para usar
+- **Reglas personalizadas**: Crea tus propias reglas usando AWS Lambda
+- Evaluación automática de cumplimiento
+- Acciones correctivas automatizadas
+
+### Grabación Continua
+- Registro automático de todos los cambios de configuración
+- Historial completo de modificaciones
+- Snapshots de configuración en puntos específicos del tiempo
+- Almacenamiento en S3 para auditorías a largo plazo
+
+### Timeline de Cambios
+- Visualización cronológica de todas las modificaciones
+- Identificación de quién, qué, cuándo y cómo cambió
+- Correlación entre cambios y eventos
+- Facilita troubleshooting y análisis de incidentes
+
+### Snapshots de Configuración
+- Captura del estado completo de recursos en un momento dado
+- Comparación entre diferentes puntos en el tiempo
+- Restauración de configuraciones previas
+- Auditoría de conformidad histórica
+
+## Casos de Uso Típicos en el Examen
+
+### 1. Auditoría de Cumplimiento
+Verificar continuamente que los recursos cumplan con políticas internas y regulaciones externas (PCI-DSS, HIPAA, SOC 2, etc.).
+
+**Ejemplo**: Asegurar que todos los buckets de S3 tengan cifrado habilitado y no sean públicos.
+
+### 2. Historial de Cambios
+Mantener un registro detallado de todas las modificaciones para análisis forense y troubleshooting.
+
+**Ejemplo**: Investigar por qué una aplicación dejó de funcionar revisando cambios en grupos de seguridad o configuraciones de red.
+
+### 3. Detección de Configuraciones No Permitidas
+Identificar automáticamente recursos que no cumplen con las políticas organizacionales.
+
+**Ejemplo**: Detectar instancias EC2 que se lanzaron sin las etiquetas requeridas o en regiones no autorizadas.
+
+## Integraciones Comunes
+
+### CloudTrail
+- Config registra **qué** cambió en la configuración
+- CloudTrail registra **quién** hizo el cambio y **cómo** (API call)
+- Juntos proporcionan visibilidad completa de cambios y auditoría
+
+### Lambda
+- Ejecuta reglas personalizadas de Config
+- Automatiza respuestas a cambios de configuración
+- Implementa lógica de remediación personalizada
+
+### SNS (Simple Notification Service)
+- Envía notificaciones cuando se detectan cambios
+- Alerta sobre violaciones de cumplimiento
+- Integra con sistemas de ticketing externos
+
+### CloudWatch
+- Métricas de cumplimiento de reglas
+- Dashboards de estado de configuración
+- Alarmas basadas en violaciones de políticas
+
+### AWS Organizations
+- Implementa Config en múltiples cuentas
+- Agrega resultados de cumplimiento organizacional
+- Gestiona reglas de configuración centralizadamente
+
+## Palabras Clave en Preguntas de Examen
+
+Cuando veas estos términos en preguntas, piensa en **AWS Config**:
+
+- **Cumplimiento** / Compliance
+- **Cambio de configuración** / Configuration change
+- **Snapshot** de configuración
+- **Historial** de recursos
+- Auditoría de recursos
+- Trazabilidad de cambios
+- Reglas de conformidad
+- Estado de configuración
+
+## Diferencias con CloudTrail
+
+| Aspecto | AWS Config | AWS CloudTrail |
+|---------|------------|----------------|
+| **Enfoque** | Estado y configuración de recursos | Actividad de API y acciones |
+| **Pregunta clave** | ¿Qué cambió? ¿Cumple las reglas? | ¿Quién hizo qué? ¿Cuándo? |
+| **Datos capturados** | Configuración de recursos, relaciones | Llamadas a API, eventos de gestión |
+| **Evaluación** | Reglas de cumplimiento | No evalúa cumplimiento |
+| **Historial** | Timeline de configuraciones | Log de actividades |
+| **Remediación** | Puede automatizar correcciones | Solo registra acciones |
+
+**Casos de uso conjunto**: Usar Config para detectar un grupo de seguridad mal configurado, y CloudTrail para identificar quién hizo el cambio.
+
+## Errores Comunes en el Examen
+
+### ❌ Confundir Config con CloudTrail
+- **CloudTrail** = Log de actividad de API (quién hizo qué)
+- **Config** = Estado de configuración y cumplimiento (qué está configurado y si cumple reglas)
+
+### ❌ No usar reglas de Config
+- Config sin reglas solo registra cambios, pero no evalúa cumplimiento
+- Las reglas son esenciales para auditoría proactiva
+
+### ❌ Ignorar el alcance multi-cuenta
+- Config puede desplegarse en toda la organización con AWS Organizations
+- No se limita a una sola cuenta
+
+### ❌ Olvidar la diferencia entre evaluación y remediación
+- Config **detecta** problemas de cumplimiento
+- La **remediación** puede ser manual o automática (usando Systems Manager Automation o Lambda)
+
+## Componentes Principales
+
+### Config Rules (Reglas)
+Definen la configuración deseada. Pueden ser:
+- **Administradas por AWS**: Pre-construidas (ej: `s3-bucket-public-read-prohibited`)
+- **Personalizadas**: Creadas con Lambda
+
+### Configuration Items (CI)
+Representación JSON del estado de un recurso en un punto del tiempo, incluyendo:
+- Configuración actual
+- Metadata
+- Relaciones con otros recursos
+- Eventos de cambio
+
+### Configuration Recorder
+Componente que detecta y graba cambios en recursos. Debe estar habilitado para que Config funcione.
+
+### Delivery Channel
+Define dónde se almacenan los datos de configuración:
+- Bucket de S3 para archivos de configuración
+- Tema SNS para notificaciones
+
+### Configuration Snapshot
+Captura completa de todos los recursos en un momento específico.
+
+## Reglas Administradas Populares
+
+- `s3-bucket-public-read-prohibited`: S3 buckets no deben permitir lectura pública
+- `ec2-instance-managed-by-systems-manager`: EC2 debe estar gestionada por Systems Manager
+- `encrypted-volumes`: Volúmenes EBS deben estar cifrados
+- `required-tags`: Recursos deben tener tags específicos
+- `iam-user-mfa-enabled`: Usuarios IAM deben tener MFA habilitado
+- `vpc-flow-logs-enabled`: VPC debe tener Flow Logs habilitados
+
+## Pricing (Precios)
+
+AWS Config cobra por:
+- **Configuration items**: Cada cambio de configuración registrado
+- **Evaluaciones de reglas**: Cada evaluación de una regla de Config
+- **Conformance packs**: Colecciones de reglas y acciones correctivas
+
+**Ejemplo de costos** (región us-east-1):
+- Configuration item: $0.003 por ítem
+- Evaluación de regla: $0.001 por evaluación
+- Primera capa gratuita disponible en cuenta nueva
+
+## Mejores Prácticas
+
+1. **Habilita Config en todas las regiones**: Los recursos pueden existir en cualquier región
+2. **Usa AWS Organizations**: Para gestión centralizada en múltiples cuentas
+3. **Implementa reglas desde el inicio**: No esperes a tener problemas de cumplimiento
+4. **Automatiza la remediación**: Usa Systems Manager Automation Documents
+5. **Revisa snapshots periódicamente**: Para auditorías programadas
+6. **Integra con Security Hub**: Para una visión holística de seguridad
+7. **Combina con CloudTrail**: Para auditoría completa (qué cambió + quién lo cambió)
+8. **Usa conformance packs**: Para implementar estándares de cumplimiento completos (PCI-DSS, NIST, etc.)
+
+## Comandos AWS CLI Comunes
+
+```bash
+# Listar reglas de Config
+aws configservice describe-config-rules
+
+# Obtener estado de cumplimiento
+aws configservice describe-compliance-by-config-rule
+
+# Ver historial de configuración de un recurso
+aws configservice get-resource-config-history --resource-type AWS::EC2::Instance --resource-id i-1234567890abcdef0
+
+# Entregar snapshot de configuración
+aws configservice deliver-config-snapshot --delivery-channel-name default
+
+# Iniciar evaluación de regla
+aws configservice start-config-rules-evaluation --config-rule-names my-rule-name
+```
+
+## Escenarios de Examen SAA-C03
+
+### Escenario 1: Cumplimiento Regulatorio
+**Pregunta**: Una empresa necesita demostrar cumplimiento con PCI-DSS asegurando que todos los volúmenes EBS estén cifrados.
+
+**Respuesta**: Usa AWS Config con la regla `encrypted-volumes` para detectar automáticamente volúmenes sin cifrar y generar reportes de cumplimiento.
+
+### Escenario 2: Troubleshooting de Cambios
+**Pregunta**: Una aplicación dejó de funcionar tras un cambio de configuración hace 3 días. ¿Cómo identificar qué cambió?
+
+**Respuesta**: Usa AWS Config para revisar el timeline de cambios del recurso afectado y comparar snapshots de configuración de antes y después del incidente.
+
+### Escenario 3: Remediación Automática
+**Pregunta**: Detectar y corregir automáticamente buckets S3 que se hacen públicos.
+
+**Respuesta**: Usa AWS Config con la regla `s3-bucket-public-read-prohibited` y configura remediación automática usando Systems Manager Automation para bloquear acceso público.
+
+---
+
+## Resumen Rápido para el Examen
+
+**AWS Config = Auditoría + Cumplimiento + Historial de Configuración**
+
+- ✅ Monitorea **configuración** de recursos
+- ✅ Evalúa **cumplimiento** con reglas
+- ✅ Mantiene **historial** de cambios
+- ✅ Permite **snapshots** de configuración
+- ✅ Puede **automatizar remediación**
+- ❌ **NO** es un log de actividad de API (eso es CloudTrail)
+
+**Palabras clave en preguntas**: cumplimiento, configuración, historial, snapshot, reglas, auditoría
