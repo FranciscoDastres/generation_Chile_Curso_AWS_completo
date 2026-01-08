@@ -1,0 +1,145 @@
+# Amazon Macie
+
+## 📌 ¿Qué es Amazon Macie?
+
+**Amazon Macie** es un servicio de **seguridad de datos totalmente administrado** de AWS que utiliza **machine learning** y **reconocimiento de patrones** para **descubrir, clasificar y proteger automáticamente información confidencial** almacenada en **Amazon S3**.
+
+Su objetivo principal es ayudarte a:
+- Detectar datos sensibles (PII, credenciales, datos financieros, etc.)
+- Comprender dónde se almacenan
+- Reducir riesgos de exposición y cumplimiento
+
+---
+
+## 🔍 ¿Qué tipo de datos puede detectar?
+
+Amazon Macie identifica automáticamente, entre otros:
+
+- 📄 **PII (Personally Identifiable Information)**
+  - Nombres
+  - Direcciones
+  - Correos electrónicos
+  - Números de teléfono
+
+- 💳 **Datos financieros**
+  - Números de tarjetas de crédito
+  - Cuentas bancarias
+
+- 🔐 **Credenciales y secretos**
+  - Tokens
+  - Claves API
+  - Contraseñas
+
+- 🧾 **Datos regulados**
+  - Información sujeta a GDPR, PCI-DSS, HIPAA (dependiendo del contexto)
+
+---
+
+## ⚙️ Funcionalidades principales
+
+### 1️⃣ Descubrimiento automático de datos
+
+- Escanea buckets de Amazon S3
+- Analiza el **contenido real de los objetos**
+- Detecta datos sensibles usando ML
+
+---
+
+### 2️⃣ Clasificación de información
+
+- Asigna niveles de sensibilidad
+- Identifica tipos de datos encontrados
+- Proporciona métricas y resúmenes visuales
+
+---
+
+### 3️⃣ Hallazgos de seguridad (Findings)
+
+Macie genera **hallazgos** cuando detecta:
+- Datos sensibles expuestos
+- Buckets públicos o mal configurados
+- Riesgos potenciales de seguridad
+
+Los hallazgos incluyen:
+- Tipo de dato detectado
+- Ubicación exacta (bucket / objeto)
+- Nivel de severidad
+
+---
+
+## 🔗 Integraciones con otros servicios AWS
+
+Amazon Macie se integra fácilmente con:
+
+- **Amazon S3** → origen de los datos
+- **AWS Security Hub** → vista centralizada de seguridad
+- **Amazon EventBridge** → automatización y respuestas
+- **Amazon CloudWatch** → métricas y monitoreo
+- **AWS IAM** → control de acceso
+
+---
+
+## 🔐 Casos de uso comunes
+
+- ✔️ Cumplimiento normativo (GDPR, PCI, etc.)
+- ✔️ Auditorías de seguridad
+- ✔️ Prevención de fugas de información
+- ✔️ Identificación de datos sensibles olvidados
+- ✔️ Seguridad en entornos multi-bucket
+
+---
+
+## 💰 Modelo de costos
+
+Amazon Macie **cobra según**:
+- Cantidad de objetos analizados
+- Volumen de datos inspeccionados
+
+💡 Recomendación: definir bien el alcance de los escaneos para optimizar costos.
+
+---
+
+## 🚀 Flujo de funcionamiento simplificado
+
+```text
+S3 Buckets
+   ↓
+Amazon Macie
+   ↓
+Descubrimiento y clasificación
+   ↓
+Hallazgos de seguridad
+   ↓
+Alertas / Automatización / Remediación
+```
+
+---
+
+## ✅ Ventajas clave
+
+- Servicio completamente administrado
+- No requiere agentes ni configuración compleja
+- Escalable automáticamente
+- Enfoque específico en **Amazon S3**
+- Ideal para entornos empresariales
+
+---
+
+## 📝 Resumen
+
+**Amazon Macie** es la solución de AWS para:
+
+> 🔍 *Descubrir*  
+> 🏷️ *Clasificar*  
+> 🔐 *Proteger*  
+
+información confidencial almacenada en **Amazon S3**, de forma **automática, escalable y segura**.
+
+---
+
+📁 *Documento ideal para repositorios, apuntes de certificación AWS o documentación interna.*
+
+##
+Correcto. Macie es un servicio automático de valoración de seguridad que ayuda a mejorar la seguridad y el cumplimiento de las aplicaciones implementadas en AWS.
+
+Obtenga más información sobre Macie.
