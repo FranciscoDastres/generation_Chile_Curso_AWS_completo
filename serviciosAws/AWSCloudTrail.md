@@ -1,36 +1,31 @@
-# AWS CloudTrail
+**AWS CloudTrail** es un servicio de auditoría y monitoreo que registra todas las llamadas a la API dentro de una cuenta de AWS, incluyendo acciones realizadas a través de la 
+**consola de AWS**, **SDKs**, **CLI** y otros servicios de AWS.
 
-## Pitch
-¿No sabes quién hizo qué cambio en tu cuenta AWS?
+## Características principales
 
-CloudTrail registra todas las acciones y accesos, mejorando auditorías y fortaleciendo la seguridad.
+- **Registro de eventos**
+  - Captura **eventos de gestión**: cambios de configuración, creación/eliminación de recursos.
+  - Captura **eventos de datos**: operaciones sobre recursos específicos como S3 y Lambda.
+  - Cada evento incluye: usuario, hora, acción, recursos afectados y origen de la solicitud.
 
-## Función Principal
-Registrar acciones realizadas en la cuenta AWS para auditoría y cumplimiento
+- **Almacenamiento seguro y duradero**
+  - Los logs se pueden enviar automáticamente a **Amazon S3**.
+  - Se pueden **cifrar con AWS KMS** para mayor seguridad.
 
-## Características Clave
-- Registro por usuario, servicio y evento
-- Integración con S3
-- Evento en tiempo real con EventBridge
+- **Monitoreo en tiempo real**
+  - Integración con **Amazon CloudWatch Logs** para generar alertas ante eventos críticos.
 
-## Casos de Uso Típicos en el Examen
-- Auditoría de seguridad
-- Análisis de comportamiento
-- Trazabilidad de cambios
+- **Análisis y auditoría**
+  - Permite **buscar y filtrar eventos** específicos.
+  - Facilita auditorías de seguridad y cumplimiento regulatorio.
 
-## Integraciones Comunes
-- S3
-- EventBridge
-- CloudWatch Logs
-- GuardDuty
+- **Multi-región y multi-cuenta**
+  - Posibilidad de registrar eventos de **todas las regiones** y **cuentas** dentro de una organización de AWS.
 
-## Palabras Clave que Suelen Aparecer en Preguntas
-- Auditoría
-- Rastro
-- API call
-- Historial
-- Cumplimiento
+- **Integración con otros servicios**
+  - Compatible con **AWS Config** para evaluación de conformidad.
+  - Puede integrarse con **Amazon Athena** para consultas avanzadas de logs.
 
-## Errores Comunes que el Examen Intenta Evaluar
-- Pensar que reemplaza a CloudWatch
-- No distinguir entre logs de eventos y métricas
+- **Retención y gestión de logs**
+  - Configuración de **políticas de retención en S3**.
+  - Permite **archivar logs automáticamente** según necesidades de cumplimiento.
