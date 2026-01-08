@@ -3,7 +3,7 @@ apuntes_ensayo_2
 
 ## 1. Monitoreo y Auditoría
 - **AWS CloudTrail**: Monitorea la actividad de cuentas de AWS registrando llamadas a la API.  
-- **AWS Config**: Servicio de auditoría que documenta cambios en los recursos de AWS y permite evaluar la conformidad con políticas.  
+- **AWS Config**: Servicio de auditoría y monitoreo que documenta y rastrea cambios en los recursos de AWS, mantiene un historial de configuraciones y permite evaluar la conformidad de los recursos con políticas y reglas internas. También facilita la investigación de incidencias y la auditoría de seguridad.
 - **Amazon CloudWatch**: Monitorea métricas de instancias EC2, uso de CPU, red y otros recursos.  
 - **AWS Trusted Advisor**: Ayuda a verificar límites de servicio y recomendaciones de optimización, seguridad y costos.
 
