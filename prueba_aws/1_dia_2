@@ -1,0 +1,184 @@
+# Examen AWS – Preguntas y Respuestas
+
+## Pregunta 1
+**Enunciado:**  
+Una aseguradora necesita archivar datos de clientes por HIPAA con acceso en 14 horas. ¿Qué clase de S3 es más apropiada?
+
+**Opciones:**
+- a. Amazon S3 Glacier
+- b. Amazon S3 Standard
+- c. Amazon S3 Standard-IA
+- d. Amazon S3 Glacier Deep Archive ✅
+
+**Respuesta correcta:** d  
+**Explicación:**  
+Para archivo con recuperación en 14 horas, Glacier Deep Archive es ideal ya que ofrece recuperación estándar en 12 horas a menor costo.
+
+---
+
+## Pregunta 2
+**Enunciado:**  
+Amazon Aurora es una base de datos relacional compatible con MySQL y PostgreSQL. ¿Cuáles de las siguientes NO son características de Amazon Aurora? (Seleccione DOS)
+
+**Opciones:**
+- a. Sistema de almacenamiento con auto-reparación
+- b. Replicación en 3 zonas de disponibilidad
+- c. Escala automática hasta 32 TB ❌
+- d. Amazon Aurora es más lenta que MySQL estándar ❌
+- e. Servicio totalmente administrado
+
+**Respuestas correctas:** c, d  
+**Explicación:**  
+Aurora escala hasta 128TB (no 32TB) y es hasta 5 veces más rápida que MySQL.
+
+---
+
+## Pregunta 3
+**Enunciado:**  
+¿Cuál de las siguientes ofertas de bases de datos o almacenes de datos totalmente administrados por AWS es adecuada para cargas de trabajo analíticas y puede utilizar consultas SQL estándar y herramientas BI existentes?
+
+**Opciones:**
+- a. Amazon RDS
+- b. Amazon DynamoDB
+- c. Amazon Redshift ✅
+- d. Amazon Aurora
+
+**Respuesta correcta:** c  
+**Explicación:**  
+Redshift es el servicio de data warehouse de AWS diseñado específicamente para análisis y BI.
+
+---
+
+## Pregunta 4
+**Enunciado:**  
+Basado en el AWS Well-Architected Framework, ¿cómo debería una empresa emergente con múltiples entornos AWS gestionar sus usuarios y recursos sin afectar el costo?
+
+**Opciones:**
+- a. Usar versiones de plantilla de AWS CloudFront y controles de revisión
+- b. Crear múltiples usuarios IAM únicos con acceso de administrador
+- c. Usar AWS Organizations con las respectivas UOs que diferencian la facturación ✅
+- d. Aprovisionamiento de recursos y capacidad de cómputo para el crecimiento futuro
+
+**Respuesta correcta:** c  
+**Explicación:**  
+AWS Organizations permite gestionar múltiples cuentas y separar facturación por entornos.
+
+---
+
+## Pregunta 5
+**Enunciado:**  
+Los datos en volúmenes Amazon EBS se pueden respaldar con instantáneas puntuales. Solo se guardan los bloques modificados después de la última instantánea. ¿Dónde se almacenan estas instantáneas EBS?
+
+**Opciones:**
+- a. Amazon EFS
+- b. Amazon Aurora
+- c. Amazon S3 ✅
+- d. Volumen Amazon EBS
+
+**Respuesta correcta:** c  
+**Explicación:**  
+Las instantáneas de EBS se almacenan en S3 (gestionado internamente por AWS).
+
+---
+
+## Pregunta 6
+**Enunciado:**  
+¿Cuál de las siguientes herramientas se puede utilizar para verificar los límites de servicio para los recursos lanzados dentro de la infraestructura de AWS Cloud?
+
+**Opciones:**
+- a. AWS Trusted Advisor ✅
+- b. AWS Config
+- c. Amazon CloudWatch
+- d. AWS CloudTrail
+
+**Respuesta correcta:** a  
+**Explicación:**  
+Trusted Advisor monitorea el uso y alerta cuando te acercas a límites de servicio.
+
+---
+
+## Pregunta 7
+**Enunciado:**  
+¿Cuál de los siguientes NO es un requisito para configurar la replicación de S3?
+
+**Opciones:**
+- a. Versionado habilitado en ambos buckets
+- b. El propietario del bucket origen debe tener ambas regiones habilitadas
+- c. El propietario del destino debe tener ambas regiones habilitadas ✅
+- d. Permisos de replicación para S3
+
+**Respuesta correcta:** c  
+**Explicación:**  
+No se requiere que el propietario del bucket destino tenga "ambas regiones habilitadas".
+
+---
+
+## Pregunta 8
+**Enunciado:**  
+En el modelo de responsabilidad compartida para servicios de infraestructura, como Amazon Elastic Compute Cloud, ¿cuáles de las siguientes son responsabilidades del cliente desde una perspectiva de seguridad? (Seleccione DOS)
+
+**Opciones:**
+- a. Imágenes de máquina Amazon (AMIs) ✅
+- b. Seguridad física del hardware
+- c. Infraestructura de virtualización
+- d. Infraestructura de red
+- e. Políticas y configuración ✅
+
+**Respuestas correctas:** a, e  
+**Explicación:**  
+El cliente es responsable de las AMIs y la configuración de seguridad.
+
+---
+
+## Pregunta 9
+**Enunciado:**  
+¿Qué clase de almacenamiento Amazon S3 sugeriría para "datos con patrón de acceso desconocido/cambiante"?
+
+**Opciones:**
+- a. Amazon S3 Intelligent-Tiering ✅
+- b. Amazon S3 Standard-IA
+- c. Amazon S3 Glacier
+- d. Amazon S3 Standard
+
+**Respuesta correcta:** a  
+**Explicación:**  
+Intelligent-Tiering mueve automáticamente los datos entre niveles según los patrones de acceso.
+
+---
+
+## Pregunta 10
+**Enunciado:**  
+¿Cuál de las siguientes NO es una ventaja de migrar a la nube?
+
+**Opciones:**
+- a. TCO disminuido
+- b. Redundancia
+- c. Escalabilidad
+- d. Tiempo aumentado para llegar al mercado ✅
+
+**Respuesta correcta:** d  
+**Explicación:**  
+La nube reduce el tiempo para llegar al mercado, no lo aumenta.
+
+---
+
+## 📊 Resumen de Calificaciones
+
+| Pregunta | Puntuación |
+|----------|------------|
+| 1 | 10/10 ✅ |
+| 2 | 10/10 ✅ |
+| 3 | 10/10 ✅ |
+| 4 | 10/10 ✅ |
+| 5 | 10/10 ✅ |
+| 6 | 10/10 ✅ |
+| 7 | 0/10 ❌ |
+| 8 | 5/10 ⚠️ |
+| 9 | 10/10 ✅ |
+| 10 | 10/10 ✅ |
+| **Total** | **85/100** |
+
+**Notas:**  
+- Pregunta 7: Confusión con requisitos de replicación S3  
+- Pregunta 8: Solo 1 de 2 respuestas correctas  
+- **Puntuación final: 85%**

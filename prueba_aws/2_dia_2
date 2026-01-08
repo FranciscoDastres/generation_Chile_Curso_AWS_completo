@@ -1,0 +1,193 @@
+# Examen AWS – Seguridad y Gestión
+
+## Pregunta 1
+**Enunciado:**  
+Un administrador recibe una alerta sobre información de tarjetas de crédito cargada erróneamente en un bucket S3 durante una encuesta. ¿Qué servicio AWS proporcionó esta detección?
+
+**Opciones:**
+- a. Amazon Inspector
+- b. Amazon EventBridge
+- c. Amazon Detective
+- d. Amazon Macie ✅
+
+**Respuesta correcta:** d  
+**Explicación:**  
+Detecta y alerta sobre datos sensibles en S3.
+
+---
+
+## Pregunta 2
+**Enunciado:**  
+¿Qué servicio se puede usar para almacenar datos de configuración y secretos de aplicaciones de forma encriptada al menor costo?
+
+**Opciones:**
+- a. AWS KMS
+- b. AWS Systems Manager Parameter Store ✅
+- c. AWS Systems Manager
+- d. AWS Secrets Manager
+
+**Respuesta correcta:** b  
+**Explicación:**  
+Parameter Store permite almacenar datos de configuración y secretos encriptados sin costo adicional, mientras que Secrets Manager tiene costo extra.
+
+---
+
+## Pregunta 3
+**Enunciado:**  
+¿Qué herramienta puede usarse para habilitar autenticación para un gran número de usuarios accediendo a un bucket S3 mediante una app móvil?
+
+**Opciones:**
+- a. Amazon Cognito ✅
+- b. AWS IAM user
+- c. AWS STS
+- d. AWS IAM group
+
+**Respuesta correcta:** a  
+**Explicación:**  
+Ideal para autenticación móvil masiva.
+
+---
+
+## Pregunta 4
+**Enunciado:**  
+__________________ automatiza el descubrimiento de datos sensibles a escala y reduce el costo de proteger sus datos utilizando técnicas de aprendizaje automático y coincidencia de patrones.
+
+**Opciones:**
+- a. Amazon GuardDuty
+- b. Amazon Macie ✅
+- c. AWS Shield
+- d. AWS Security Hub
+
+**Respuesta correcta:** b  
+**Explicación:**  
+Automatiza el descubrimiento y protección de datos sensibles.
+
+---
+
+## Pregunta 5
+**Enunciado:**  
+Enfocándose en el pilar de seguridad del Well-Architected Framework, desea definir estándares y mejores prácticas para sus instancias EC2 y validar el cumplimiento. ¿Cuál elegiría?
+
+**Opciones:**
+- a. AWS Resource Access Manager
+- b. AWS Security Hub
+- c. Amazon Detective
+- d. AWS Inspector ✅
+
+**Respuesta correcta:** d  
+**Explicación:**  
+Inspector ayuda a auditar la seguridad y el cumplimiento de instancias EC2.
+
+---
+
+## Pregunta 6
+**Enunciado:**  
+¿Con cuáles recursos puede integrarse AWS WAF para proteger aplicaciones web contra exploits comunes? (Seleccione DOS)
+
+**Opciones:**
+- a. Sitio web estático en S3
+- b. Application Load Balancer ✅
+- c. Servidor web en EC2
+- d. Internet Gateway
+- e. Amazon CloudFront ✅
+
+**Respuestas correctas:** b, e  
+**Explicación:**  
+WAF se integra con ALB y CloudFront para proteger aplicaciones web.
+
+---
+
+## Pregunta 7
+**Enunciado:**  
+¿Qué servicio AWS utiliza machine learning y teoría de grafos en datos de registro recopilados automáticamente para ayudar en investigaciones de seguridad más rápidas y eficientes?
+
+**Opciones:**
+- a. Amazon Detective ✅
+- b. AWS Artifact
+- c. Amazon GuardDuty
+- d. Amazon Macie
+
+**Respuesta correcta:** a  
+**Explicación:**  
+Detective usa ML para investigaciones de seguridad.
+
+---
+
+## Pregunta 8
+**Enunciado:**  
+Un administrador configura privilegios para nuevos empleados, otorgando selectivamente permisos. ¿Qué principio está siguiendo?
+
+**Opciones:**
+- a. Principio de usuarios privilegiados
+- b. Principio de privilegio de grupo
+- c. Principio de mínimo privilegio ✅
+- d. Mejores prácticas de permisos
+
+**Respuesta correcta:** c  
+**Explicación:**  
+Otorgar solo los permisos necesarios.
+
+---
+
+## Pregunta 9
+**Enunciado:**  
+Una startup de entrega de comida quiere implementar protección DDoS para sus aplicaciones en AWS. ¿Qué servicio gestionado de AWS asegura protección contra ataques DDoS?
+
+**Opciones:**
+- a. Amazon GuardDuty
+- b. AWS Shield ✅
+- c. AWS WAF
+- d. AWS Firewall Manager
+
+**Respuesta correcta:** b  
+**Explicación:**  
+AWS Shield protege contra ataques DDoS de manera gestionada.
+
+---
+
+## Pregunta 10
+**Enunciado:**  
+La Seguridad y el Cumplimiento es una responsabilidad compartida entre AWS y el cliente. ¿Cuáles de las siguientes opciones son responsabilidades de AWS? (Seleccione DOS)
+
+**Opciones:**
+- a. Realizar todas las tareas de configuración de seguridad para EC2
+- b. Gestión de parches del SO y aplicaciones
+- c. Gestión de parches dentro de la infraestructura AWS ✅
+- d. Seguridad de los datos en la nube AWS
+- e. Seguridad de la nube AWS ✅
+
+**Respuestas correctas:** c, e  
+**Explicación:**  
+AWS es responsable de la seguridad de la nube y de los parches en su infraestructura.
+
+---
+
+## Pregunta 11
+**Enunciado:**  
+¿Qué servicio se puede usar para almacenar de forma segura y rotar automáticamente las credenciales de bases de datos alojadas en Amazon RDS?
+
+**Opciones:**
+- a. AWS Systems Manager Session Manager
+- b. AWS Systems Manager
+- c. AWS Secrets Manager ✅
+- d. AWS Systems Manager Parameter Store
+
+**Respuesta correcta:** c  
+**Explicación:**  
+Secrets Manager permite almacenar y rotar automáticamente credenciales.
+
+---
+
+## Pregunta 12
+**Enunciado:**  
+Un cliente elige una base de datos MySQL RDS en AWS por su escalabilidad y alta disponibilidad. ¿Qué rol puede desempeñar para hacerla segura?
+
+**Opciones:**
+- a. Puede actualizar el sistema operativo en EC2
+- b. Puede encriptar datos usando encriptación de volumen EBS
+- c. Puede restringir acceso usando un Security Group ✅
+- d. Puede actualizar el software de base de datos en EC2
+
+**Respuesta correcta:** c  
+**Explicación:**  
+RDS gestiona el almacenamiento y la infraestructura; el cliente puede restringir acceso usando Security Groups.

@@ -1,0 +1,91 @@
+# Cuestionario AWS – Facturación, Optimización y Soporte
+
+---
+
+## Pregunta 1
+
+**Enunciado:**  
+¿Qué servicio puede utilizar un cliente para configurar una cuenta administrativa de pagador con el fin de ver los informes de facturación unificada?
+
+**Opciones:**  
+- a. Amazon QuickSight  
+- b. AWS Budgets  
+- c. Amazon Macie  
+- d. AWS Organizations ✅  
+
+**Retroalimentación:**  
+Organizations es un servicio de administración de cuentas que le permite unificar múltiples cuentas de AWS para administrarlas de forma centralizada. La facturación unificada es una función de Organizations que puede utilizar para unificar la facturación y el pago de múltiples cuentas de AWS.
+
+**Respuesta correcta:** d. AWS Organizations
+
+---
+
+## Pregunta 2
+
+**Enunciado:**  
+¿Qué servicio de AWS ofrece el medio con MÁS optimización de costos para almacenar imágenes estáticas?
+
+**Opciones:**  
+- a. Amazon S3 ✅  
+- b. AWS Snowball Edge  
+- c. Amazon DynamoDB  
+- d. Amazon Elastic Block Store (Amazon EBS)  
+
+**Retroalimentación:**  
+Amazon S3 optimiza los costos de almacenamiento de imágenes estáticas basándose en el precio por GB. Amazon EBS requiere aprovisionamiento y rendimiento específico, lo que no es tan económico para almacenamiento masivo de imágenes.
+
+**Respuesta correcta:** a. Amazon S3
+
+---
+
+## Pregunta 3
+
+**Enunciado:**  
+Una empresa tiene una aplicación sin estado que puede gestionar interrupciones. La aplicación debe estar disponible veinticuatro horas al día. El tráfico aumenta considerablemente durante el horario comercial. ¿Qué tipos de instancias para los picos de tráfico y de base tienen MÁS optimización de costos para cumplir con estos requisitos?
+
+**Opciones:**  
+- a. Instancias bajo demanda para el tráfico base e instancias de spot para los picos de tráfico mediante Amazon EC2 Fleet  
+- b. Instancias reservadas tanto para el pico de tráfico como para el tráfico base  
+- c. Instancias reservadas para el tráfico base e instancias de spot para el pico de tráfico mediante Amazon EC2 Fleet ✅  
+- d. Instancias bajo demanda para tráfico base e instancias bajo demanda con escalado automático para picos de tráfico  
+
+**Retroalimentación:**  
+Las instancias reservadas optimizan costos para el tráfico base, mientras que las instancias de spot para los picos permiten aprovechar descuentos en la capacidad de EC2. Combinadas con EC2 Fleet, permiten manejar el tráfico base y los picos de manera eficiente.
+
+**Respuesta correcta:** c. Instancias reservadas para el tráfico base e instancias de spot para el pico de tráfico mediante Amazon EC2 Fleet
+
+---
+
+## Pregunta 4
+
+**Enunciado:**  
+¿Qué plan de AWS Support incluye un director técnico de cuenta (TAM) designado de AWS?
+
+**Opciones:**  
+- a. AWS Business Support  
+- b. AWS Enterprise Support ✅  
+- c. AWS Developer Support  
+- d. AWS Basic Support  
+
+**Retroalimentación:**  
+Enterprise Support incluye el acceso a un TAM designado para asistencia técnica personalizada y planificación estratégica.
+
+**Respuesta correcta:** b. AWS Enterprise Support
+
+---
+
+## Pregunta 5
+
+**Enunciado:**  
+Una empresa necesita acceso a ingenieros de soporte en la nube las 24 horas del día, los 7 días de la semana. ¿Cuál es el plan de AWS Support MENOS costoso que cumple este requisito?
+
+**Opciones:**  
+- a. AWS Enterprise Support  
+- b. AWS Basic Support  
+- c. AWS Developer Support  
+- d. AWS Business Support ✅  
+
+**Retroalimentación:**  
+Business Support es el plan menos costoso que incluye acceso a ingenieros de soporte en la nube las 24 horas, los 7 días de la semana.
+
+**Respuesta correcta:** d. AWS Business Support
