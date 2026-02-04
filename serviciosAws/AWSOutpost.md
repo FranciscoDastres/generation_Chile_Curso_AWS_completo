@@ -35,3 +35,5 @@
  # Local Zones
 
 * Outpost No es para ahorrar costos
+* permite utilizar hardware instalado de aws en las instalaciones para ampliar y ejecutar servicios nativos de AWS disponibles en las instalaciones, si usa outpost, es posible ejecutar algunos servicios de AWS locamente mediante los mismos servicios, herramientas y las api de AWS
+
