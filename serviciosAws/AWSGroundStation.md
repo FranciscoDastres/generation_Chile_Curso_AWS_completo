@@ -1,0 +1,4 @@
+* AWS Grounnd station es un servicio completamente administrado que permite controlar comunicaciones satelitales
+# procesar datos y ajustar la escala de sus operaciones sin tener que preocuparse por crear o administrar una infraestructura de estacion terrestre propia
+# los satelites se usan para una amplia cantidad de casos de uso, incluidos los pronosticos meterologicos, imagenes de superficies , comunicaciones y transmiciones de videos
+# las estacioens terrestres son la escencia de las reedes satelitales globales. con AWS ground station, tiene acceso a los servicios de infraestructura global de AWS, incluida una red de fibra mundial de baja latencia
