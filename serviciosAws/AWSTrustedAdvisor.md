@@ -178,3 +178,28 @@ Trusted Advisor utiliza un sistema visual para priorizar acciones:
 ---
 
 **Nota**: Trusted Advisor es una herramienta fundamental para mantener un entorno AWS optimizado, seguro y eficiente. Para aprovechar al máximo sus capacidades, considera actualizar a un plan de soporte Business o Enterprise si tu organización depende críticamente de AWS.
+
+* Que es 
+# servicio que analiza tu cuenta de AWS y te da recomendaciones basadas en best practices de AWS
+# no ejecuta cambios recomienda!
+
+* Para que sirve
+# mejorar costos,seguridad,rendimiento,limites de servicio,tolerancia a fallos
+# un asesor automatico de AWS
+
+* Como funciona
+# analiza recursos de tu cuenta
+# compara best practices
+# genera checks
+# muestra recomendaciones
+# te dice que mejorar y porque
+# tu decides si aplicas los cambios
+
+* Cuando usarlo
+# quiereres optimizar costos
+# Buscas mejorar la seguridad
+# Quieres cunplir buenas practicas
+# Necesitas revisar limites
+
+* Ejemplo de examen
+# empresa quiere recomendaciones automaticas para reducir costos y mejorar seguridad
