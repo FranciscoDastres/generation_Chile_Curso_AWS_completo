@@ -68,3 +68,5 @@
  * Cloudtrail existe para dejar evidencia de TODO lo que pasa en AWS
 
  * Correcto. CloudTrail monitorea y registra continuamente la actividad en una cuenta de AWS. Los registros de CloudTrail incluyen las acciones que los usuarios realizan mediante la consola, los SDK, las llamadas API y AWS CLI.
+
+*  CloudTrail ayuda con la gobernanza, el cumplimiento y la auditoría operativa y de riesgos de las cuentas de AWS. CloudTrail no protege contra los ataques de DDoS.
