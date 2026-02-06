@@ -135,4 +135,4 @@ Se utiliza para **automatizar flujos** y **arquitecturas event-driven**.
 
 ---
 
-✍️ *Documento pensado para ser adjuntado a un repositorio como referencia rápida de AWS CloudWatch.*
+* Que es ?
