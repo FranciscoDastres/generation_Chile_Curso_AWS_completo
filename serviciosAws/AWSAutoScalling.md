@@ -36,3 +36,8 @@ Optimizar rendimiento y costos escalando recursos como:
 ## Errores Comunes que el Examen Intenta Evaluar
 - Confundir con EC2 Auto Scaling (solo EC2)
 - Asumir que reemplaza monitoreo
+
+# una app tiene picos imprredecibles y necesita escalar ec2 automaticamente
+# aws auto scalling
+# una app quiere ditstribuir trafico entrante entre instancias
+# elastic load balancer
