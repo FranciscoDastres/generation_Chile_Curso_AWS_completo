@@ -28,4 +28,43 @@
 
 - **Retención y gestión de logs**
   - Configuración de **políticas de retención en S3**.
-  - Permite **archivar logs automáticamente** según necesidades de cumplimiento.
+  - Permite **archivar logs automáticamente** según necesidades de cumplimiento.  
+
+  * que es ? 
+  # es un servcicio de auditoria que registra todas las llamadas de la API dentro de una cuenta de AWS, incluyendo acciones realizadas a traves de
+   * consola aws
+   * SDKs
+   * CLI
+  # responde a quien hizo que y cuando desde donde
+
+  * sirve para
+   # Auditoria
+   # Seguridad
+   # Cumplimiento normativo
+   # Investigacion de incidentes
+    * saber quien borro un recurso
+    * detectar accesos no autorizados
+    * cumplir normas (ISO 27001 , PCI DSS, SOC control de accesos y cambios, GDPR / Ley de datos / quien accede a los datos)
+  * como funciona
+  # cloud trail registra eventos
+   * acciones de consola
+   * llamadas API
+   * CLI / SDK
+  # Guarda logs en
+   * S3
+   * CloudWatch Logs
+  
+  * Es historico no solo en tiempo real
+ 
+  * Cuando usarlo 
+  # Necesitas auditoria
+  # Quieres trazabilidad
+  # Investigas incidentes
+  # Requieres compliance (hacer que  cumpla las rejas )
+
+ * Pregunta tipo examen
+ # Empresa necesita saber quien modifico una política IAM
+
+ * Cloudtrail existe para dejar evidencia de TODO lo que pasa en AWS
+
+ * Correcto. CloudTrail monitorea y registra continuamente la actividad en una cuenta de AWS. Los registros de CloudTrail incluyen las acciones que los usuarios realizan mediante la consola, los SDK, las llamadas API y AWS CLI.
