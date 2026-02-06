@@ -1,82 +1,32 @@
-# Amazon CloudFront
+* que es ? 
+# es un CDN ( content delivery netfwork ) de AWS
+# distribuye contenido desde ubicaciones cercanas al usuario
 
-## 📌 ¿Qué es Amazon CloudFront?
+* para que sirve?
+# reducir latencia
+# mejorar rendimiento
+# aumentar disponibilidad
+# proteger app publicas
+# distribuye
+ * contenido estatico ( img, videos,js)
+ * contenido dinamico
+ * APis
 
-**Amazon CloudFront** es un **servicio de red de entrega de contenido (CDN, Content Delivery Network)** que entrega datos, videos, aplicaciones y APIs a los usuarios de forma **segura y con baja latencia**, aprovechando la infraestructura global de AWS.
+* como funciona
+# el usuario solicita contenido
+# cloudfront responde desde la edge location mas cercana
+# sino existe lo trae del origin(s3 , ALB,EC2), lo cachea, 
+# lo entrega al usuario
+# menos distancia = mas velocidad
 
-CloudFront se utiliza para mejorar la **velocidad de entrega** y la **seguridad** de los contenidos que se sirven desde servicios como Amazon S3, servidores web o aplicaciones dinámicas.
+* cuando usarlo 
+# tu app es global
+# tienes usuarios en varias regiones
+# necesitas baja latencia
+# quieres proteger tus servicios backend
 
----
+* ejemplo examen
+# empresa con usuarios globales quiere mejorar latencia y disponiblidad
+# cloundfront
 
-## 🌍 Características principales
-
-- **Entrega de contenido global**: CloudFront utiliza una red de **puntos de presencia (PoPs)** distribuidos mundialmente.
-- **Optimización de rendimiento**: reduce la latencia al acercar los datos al usuario final.
-- **Soporte para contenido dinámico y estático**: entrega imágenes, videos, archivos estáticos y APIs.
-- **Seguridad integrada**: soporte de **AWS Shield, AWS WAF, SSL/TLS**, control de acceso y protección DDoS.
-- **Integración con otros servicios AWS**: S3, EC2, Lambda@Edge, API Gateway.
-
----
-
-## ⚙️ Cómo funciona CloudFront
-
-1. El contenido se almacena en **orígenes**: S3, EC2, Elastic Load Balancer, etc.
-2. CloudFront distribuye el contenido a **edge locations** cercanas al usuario final.
-3. Cuando un usuario solicita un contenido:
-   - Si el contenido está en caché en un edge location → se entrega directamente.
-   - Si no está en caché → CloudFront lo obtiene del origen, lo entrega y lo almacena en caché.
-
----
-
-## 🔧 Funcionalidades clave
-
-- **Caché de contenido**: almacenamiento temporal en edge locations para acelerar la entrega.
-- **Invalidación de caché**: permite actualizar contenido en los edge locations.
-- **Soporte para HTTP/HTTPS**: entrega segura de contenido.
-- **Lambda@Edge**: ejecución de funciones serverless en la red de CloudFront.
-- **Compresión automática**: reduce el tamaño de los datos transferidos.
-
----
-
-## 💡 Casos de uso comunes
-
-- ✅ Distribución de sitios web estáticos y dinámicos
-- ✅ Streaming de video y audio en tiempo real
-- ✅ Aceleración de APIs
-- ✅ Entrega segura de aplicaciones web
-- ✅ Reducción de carga en servidores de origen
-
----
-
-## 💰 Modelo de costos
-
-Amazon CloudFront cobra según:
-- Cantidad de **datos transferidos**
-- Número de **solicitudes** al servicio
-- Uso de **funciones Lambda@Edge** (si aplica)
-
----
-
-## 🚀 Integración con otros servicios AWS
-
-- **Amazon S3** → almacenamiento de contenido estático
-- **Elastic Load Balancer / EC2** → origen de contenido dinámico
-- **AWS WAF** → protección de aplicaciones web
-- **Lambda@Edge** → lógica personalizada en la CDN
-
----
-
-## 📝 Resumen
-
-**Amazon CloudFront** es un servicio de **CDN** que permite:
-
-> 🌍 Mejorar la velocidad y disponibilidad del contenido  
-> 🔐 Proteger datos y aplicaciones  
-> ⚡ Optimizar la experiencia de usuario final
-
-Ideal para **sitios web, aplicaciones y APIs** que necesitan **rendimiento global y seguridad**.
-
----
-
-📁 *Documento para repositorios, documentación interna o apuntes de certificación AWS.*
-
+# CloudFront reduce el impacto de un ataque DDoS al distribuir y absorber las solicitudes en sus edge locations, de modo que muchas no llegan al backend.
