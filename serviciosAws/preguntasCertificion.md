@@ -110,3 +110,63 @@
 * Una empresa tiene una aplicación web Java. La empresa desea utilizar la implementación automática para crear el entorno de AWS e implementar nuevas versiones de su aplicación. ¿Qué servicio de AWS podría cumplir con estos requisitos?
 # AWS Elastic Beanstalk
 
+* De acuerdo con el modelo de responsabilidad compartida de AWS, ¿cuál tarea es responsabilidad de AWS cuando se trata de cargas de trabajo que se ejecutan en Amazon EC2?
+
+# la actualizacion del hardware fisico : el hwardware fisico forma parte de la responsabilidad de AWS
+
+* Cual es la responsabilidad comaprtida entre usuario y servicio de AWS 
+# proveer informacion y formacion
+
+* ¿Cuál es una práctica recomendada de AWS para administrar un usuario raíz de una cuenta de AWS?
+# utilizar la autenticacion multifactor MFA para el usuario raiz ( practica recomendada  es MFA para todos los usuarios incluido el root)
+
+* cuales servicios o funciones de AWS pueden controlar el trafico de VPC
+# grupos de seguridad
+# Las ACL de red
+
+* ¿Cuáles son características de los usuarios y los grupos de AWS IAM? (Seleccione DOS).
+# un usuario puede ser miembro de diferentes grupos
+# los grupos solo pueden contener usuarios y no se pueden anidar
+
+* que tareas requieren el uso del user raiz de la cuenta WS
+# cerrar una cuenta de AWS
+# restaurar permisos de administrador de IAM
+
+* Un desarrollador debe acceder a los recursos de AWS desde AWS CLI. ¿Qué función de AWS Identity and Access Management (IAM) puede utilizar el desarrollador para la autenticación?
+
+# Claves de acceso de IAM
+
+# De acuerdo con el modelo de responsabilidad compartida de AWS, ¿cuáles de las siguientes tareas son responsabilidad de AWS? (Seleccione DOS).
+
+* el parche y la actualizacion del hipervisor
+* la seguridad fisica de las instlaciones de AWS
+
+# De acuerdo con el modelo de responsabilidad compartida de AWS, ¿qué tareas son responsabilidad del cliente? (Seleccione DOS).
+
+* configurar los firewalls
+* aplicar parches al sistema operativo invitado
+
+# De acuerdo con el modelo de responsabilidad compartida de AWS, ¿qué tareas relacionadas con la seguridad son responsabilidad del cliente? (Seleccione DOS).
+
+* encriptacion de dartos dell lado del cliente
+* integridad de datos del cliente
+
+# ¿Cuál es una práctica recomendada de IAM para las claves de acceso del usuario raíz de la cuenta AWS?
+* De ser posible eliminar todas las claves de acceso del usuario raíz
+
+# ¿Cuáles de las siguientes son las prácticas recomendadas de seguridad para usar AWS Identity and Access Management (IAM)? (Seleccione DOS).
+* rotar las credenciales con regularidad
+* habilitar autenticacion  multifactor
+
+# ¿ Cuál es una responsabilidad de AWS en el modelo de responsabilidad compartida de AWS ?
+
+* proteger infraestructura fisica
+
+# Una empresa tiene una instancia de Amazon EC2 que debe acceder a AWS Secrets Manager para recuperar las credenciales.
+# ¿Qué identidad o servicio necesita la instancia de EC2 para realizar la tarea?
+
+* Rol de IAM
+
+# Una empresa quiere asegurarse de que dos instancias de Amazon EC2 estén en centros de datos independientes con una latencia de comunicación mínima entre los centros de datos. ¿Cómo puede la empresa cumplir con este requisito?
+
+*  Al colocar las instancias de EC2 en dos zonas de disponibilidad independientes dentro de la misma región de AWS
