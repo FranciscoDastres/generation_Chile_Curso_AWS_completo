@@ -73,3 +73,27 @@
 ## Una empresa aloja un sitio web estático desde un único bucket de Amazon S3. ¿Qué servicio de AWS conseguirá una menor latencia y una mayor velocidad de transferencia?
 
 * Amazon Cloud Front: servicio web que agiliza disfritubcion de contenido web estatico y dinamico archivos html.css js y archivos de imagenes de usuario
+
+## Beneficio de utilizar un servicio administrado de AWS
+
+* servicios administrados de AWS permiten ahorrar costos operativos con practicas recomendadas
+
+## cuales son los benficios de migrar a la nube con mejorar el tiempo de comercializacion
+
+* incrementar la agilidad empresarial
+
+## que principio de diseño de arquitectura se aplica al concepto de redimensionamiento de la infraestructura de la nube de AWS
+* optimizar los costos
+
+* que servicio o funcion de AWS puede usar un dev para acceder a los servicios de AWS mediante programacion?
+## kits de desarrollod e Software SKD de AWS
+
+* cuales un ejemplo de alta disponibilidad en la nube de AWS
+# garantia de la accesibilidad de una app incluso si falla un recurso
+
+* cuales de los siguientes son principios de seguridad del marco de AWS well architected
+# monitorear alertar y auditar las acciones y los cammbios de recuross de AWS
+# proteger los datros en transifo y en reposo
+
+* un profesional de la nube tiene la tarea de desarrollar plan de recuperacion ante desastres y pretende replicar datos entre multiples areas geograficas , cual es el componente de la nube de AWS que la empresa debe usar para cumplir dichos requisitos
+# regiones de AWS
