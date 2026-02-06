@@ -1,0 +1,1 @@
+# Una ACL de red es una capa de seguridad adicional para VPC, que funciona como un firewall para controlar el tráfico que se aplica a nivel de subred.
