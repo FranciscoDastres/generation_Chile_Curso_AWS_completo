@@ -93,7 +93,20 @@
 
 * cuales de los siguientes son principios de seguridad del marco de AWS well architected
 # monitorear alertar y auditar las acciones y los cammbios de recuross de AWS
-# proteger los datros en transifo y en reposo
+# proteger los datos en transito y en reposo
 
 * un profesional de la nube tiene la tarea de desarrollar plan de recuperacion ante desastres y pretende replicar datos entre multiples areas geograficas , cual es el componente de la nube de AWS que la empresa debe usar para cumplir dichos requisitos
 # regiones de AWS
+
+* cuales de las siguientes son caracteristicas de las regiones y zonas de disponibiilidad
+# las regiones se encuentran en todo el mundo
+# las regiones constan de multiples zonas de disponibilidad
+* ¿Qué opción es una función básica del AWS Cloud Adoption Framework (AWS CAF) desde el punto de vista de las operaciones?
+ # administrar el rendimiento y la capacidad
+
+* Una empresa necesita auditar sus recursos de AWS. La empresa debe documentar cualquier cambio que se hizo en los recursos.
+ # AWS Config
+
+* Una empresa tiene una aplicación web Java. La empresa desea utilizar la implementación automática para crear el entorno de AWS e implementar nuevas versiones de su aplicación. ¿Qué servicio de AWS podría cumplir con estos requisitos?
+# AWS Elastic Beanstalk
+

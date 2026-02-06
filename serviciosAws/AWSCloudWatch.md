@@ -136,3 +136,20 @@ Se utiliza para **automatizar flujos** y **arquitecturas event-driven**.
 ---
 
 * Que es ?
+# servicio de monitero y observabilidead e AWS
+# monitorea recursos, app y servicios
+# metrigas logs y alarmas
+
+* sirve para
+# monitorear perfomance
+# ver metricas(cpu memoria request)
+# centralizar logs
+# crear alarmaas
+# automatizar respuestas
+
+# preguntas
+ - una emopresa quiere recibir una alerta cuando la cpu supere 80%
+ - cloud watch
+
+ - una empresa quiere saber quien elimino una instancia
+  # cloud trail
