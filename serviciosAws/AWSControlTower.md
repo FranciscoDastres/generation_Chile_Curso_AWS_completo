@@ -393,16 +393,16 @@ aws organizations list-accounts
 * Sirve para
 # Crear una landing zone segura
 # administrar multiples cuentas
-# aplicar politicas y contorles automaticamente
+# aplicar politicas y controles automaticamente
 # evitar configuraciones peligrosas
 * piensa en ordenar antes de que quede la cagada
 
 * como funciona
 # crea y configura AWS organization
 # crea cuentas 
- * management
+ * management (controlar,configurar,monitorear)
  * log archive
- * audit
+ * audit (registrar,revisar y verificar)
 # aplica guardrails(reglas)
 # monitorea cumplimiento
 * todo precomnfigurado por AWS
