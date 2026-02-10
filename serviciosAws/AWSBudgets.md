@@ -1,5 +1,5 @@
 * Que es ?
-# Servicio que te permite definir presupuesyos y recibir ofertas cuando tus costos o uso superan ( o estan por superar ) un limite
+# Servicio que te permite definir presupuestos  y recibir ofertas cuando tus costos o uso superan ( o estan por superar ) un limite
 
 # control de alertas no analisis
 # complementa cost explorer
