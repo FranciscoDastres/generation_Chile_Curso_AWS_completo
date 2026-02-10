@@ -41,3 +41,17 @@ Optimizar rendimiento y costos escalando recursos como:
 # aws auto scalling
 # una app quiere ditstribuir trafico entrante entre instancias
 # elastic load balancer
+
+* Que es?
+# un servicio que ajusta automaticamente la capacidad de tus recursos segun demanda
+# sirve para mantener perfomnance 
+# ahorrar costos
+# alta disponibilidad
+# manejas picos de trafico
+
+* que puede escalar
+# ec2 auto scalling groups
+# ecs
+# dynamoDB
+# aurora
+# spot fleet
