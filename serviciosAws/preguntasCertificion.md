@@ -170,3 +170,55 @@
 # Una empresa quiere asegurarse de que dos instancias de Amazon EC2 estén en centros de datos independientes con una latencia de comunicación mínima entre los centros de datos. ¿Cómo puede la empresa cumplir con este requisito?
 
 *  Al colocar las instancias de EC2 en dos zonas de disponibilidad independientes dentro de la misma región de AWS
+
+* ¿Qué servicio de base de datos de AWS proporciona almacenamiento de datos en memoria?
+
+  -Amazon Elastic Cache
+
+# ¿Qué servicio de AWS puede utilizar una empresa para detectar un corte en los servidores de su sitio web y para redirigir a los usuarios a servidores alternativos?
+
+# Amazon Route 53
+
+# Una empresa necesita ejecutar una aplicación en instancias de Amazon EC2. La carga de trabajo en ejecución no se puede interrumpir. La empresa necesita una opción de compra de instancia que no requiera ningún compromiso. ¿Qué opción de compra de instancias cumplirá estos requisitos de la manera MÁS rentable?
+
+# Instancias bajo demanda
+
+# Una empresa quiere alojar sus bases de datos relacionales en AWS. Las bases de datos tienen esquemas predefinidos que la empresa necesita replicar en AWS. ¿Qué servicios de AWS podría utilizar la empresa para las bases de datos? (Seleccione DOS).
+# amazon aurora 
+# amazon RDS 
+
+# ¿Qué función se puede utilizar para proteger los buckets de Amazon S3 contra sobreescrituras o eliminaciones accidentales?
+
+# el control de versiones de un bucket
+
+# ¿Qué servicio de AWS puede generar un hallazgo cuando la información de identificación personal (PII) se almacena en un bucket de Amazon S3?
+
+# amazon macie : aplica tecnicas de machine learniung y concidencia de patrones para identificar informacion si encuentra informacion confidencial Es posible seleccionar buckets de S3 específicos para que Macie los busque.
+
+# ¿Qué servicio de cómputo de AWS es serverless?
+# AWS Lambda
+
+# Una empresa aloja una aplicación en una instancia de Amazon EC2. La instancia de EC2 necesita acceder a varios recursos de AWS, incluidos Amazon S3 y Amazon DynamoDB. ¿Cuál es la solución MÁS eficiente para delegar permisos desde el punto de vista operativo?
+# Crear un rol de IAM con los permisos necesarios. Adjuntar el rol a la instancia de EC2.
+
+# Después de seleccionar una reserva de servidor dedicado de Amazon EC2, ¿qué opción de precios ofrecería el descuento más grande?
+# pago total anticipado
+
+# Qué beneficio de AWS permite a los usuarios implementar una infraestructura en la nube compuesta por múltiples regiones geográficas conectadas por una red de baja latencia, alto rendimiento y redundancia?
+# Alcance global
+
+# Una empresa de venta al por menor en línea tiene picos de ventas de temporada varias veces al año, principalmente durante los días festivos. La demanda es menor en otros momentos. A la empresa le resulta difícil predecir el aumento de la demanda de infraestructura para cada temporada.
+
+# ¿Cuáles son las ventajas de migración a la nube de AWS que beneficiarían MÁS a la empresa? (Seleccione DOS).
+
+# elasticidad, pago por uso
+
+# Una empresa quiere crear una aplicación de análisis de datos que utilice Amazon Redshift. La empresa necesita una estimación de costos para el uso futuro de Amazon Redshift. ¿Qué herramienta de AWS proporcionará una estimación de costos de alto nivel?
+# AWS pricing
+
+# ¿Qué servicio de AWS se debe utilizar para monitorear las instancias de Amazon EC2 para el uso de la CPU y la red?
+# cloud watch
+
+# Una empresa tiene una aplicación sin estado que puede gestionar interrupciones. La aplicación debe estar disponible veinticuatro horas al día. El tráfico aumenta considerablemente durante el horario comercial. ¿Qué tipos de instancias para los picos de tráfico y de base tienen MÁS optimización de costos para cumplir con estos requisitos?
+
+# instancias reservadas para el tráfico base e instancias de spot para el pico de tráfico mediante Amazon EC2 Fleet
