@@ -39,3 +39,7 @@
 
 * frase para recordar 
 # AWS support = planes de soporte segun necesidad
+
+# Una empresa necesita acceso a ingenieros de soporte en la nube las 24 horas del día, los 7 días de la semana. ¿Cuál es el plan de AWS Support MENOS costoso que cumple este requisito?
+
+# AWS business support 
