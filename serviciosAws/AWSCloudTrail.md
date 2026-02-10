@@ -31,7 +31,7 @@
   - Permite **archivar logs automáticamente** según necesidades de cumplimiento.  
 
   * que es ? 
-  # es un servcicio de auditoria que registra todas las llamadas de la API dentro de una cuenta de AWS, incluyendo acciones realizadas a traves de
+  # es un servicio de auditoria que registra todas las llamadas de la API dentro de una cuenta de AWS, incluyendo acciones realizadas a traves de
    * consola aws
    * SDKs
    * CLI
