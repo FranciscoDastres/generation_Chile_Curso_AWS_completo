@@ -67,7 +67,3 @@ Amazon Aurora cobra según:
 > ⚡ Alto rendimiento
 > 🔐 Seguridad y cifrado
 > 🌍 Alta disponibilidad y recuperación automática
-
----
-
-📁 *Documento para repositorios, documentación interna o apuntes de certificación
