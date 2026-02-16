@@ -75,6 +75,8 @@ AWS WorkSpaces Web
 
 IoT Greengrass
 
+Integracion con Active Directory 
+
 Preguntas y Respuestas (Ordenadas y Consolidadas):
 Pregunta 1:
 Descripción: Está diseñando una solución de dispositivos conectados usando AWS IoT Core y desea implementar un protocolo de comunicación ligero adecuado para escenarios IoT. ¿Qué protocolo de mensajería se usa comúnmente para la comunicación entre dispositivos y AWS IoT Core?
