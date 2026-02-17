@@ -1,5 +1,5 @@
 * Que es ? 
- # Servicio que proporciona Hardware Security Module (HSM) dedicado en la nube
+ # Servicio que proporciona Hardware Security Module (HSM) dedicado en la nube (dispositivo fisico especializado en criptografía que se usa para generar claves criptograficas, almacenar claves segura, firmar digitalmente , cifrar y descifrar datos)
  # Permite generar y almacenar claves criptográficas en hardware especializado
  # Tú tienes el control total de las claves
  # Es seguridad criptográfica a nivel hardware

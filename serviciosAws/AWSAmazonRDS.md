@@ -19,7 +19,7 @@
 
 * pregunta tipo examen
 
-# una empresa quiere una db mysql con backups automaticos  y faiilover automatico
+# una empresa quiere una db mysql con backups automaticos  y failover automatico (proceso automático de cambiar un sistema de respaldo cuando el sistema principal falla)
 # amazon RDS
 
 # que opcion mejora la disponibilidad pero no rendimiento

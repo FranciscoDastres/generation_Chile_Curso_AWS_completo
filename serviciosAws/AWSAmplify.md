@@ -1,5 +1,5 @@
 * Que es?
- # Un conjunto de herramientas y servicios para desarrollar y desplegar aplicacioens web y móviles 
+ # Un conjunto de herramientas y servicios para desarrollar y desplegar aplicaciones web y móviles 
  # Facilita conectar frontend con servicios AWS
  # Enfocado en desarrolladores
  # Es como un acelerador para construir apps full-stack en AWS
