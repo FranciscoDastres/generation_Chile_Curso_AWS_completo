@@ -10,7 +10,7 @@
  - Logs
  - Datos en formato CSV
  - JSON
- - Parquet (formatop para almacenar datos  optimizado para analisis) guarda los datos por columnas
+ - Parquet (formato para almacenar datos  optimizado para analisis) guarda los datos por columnas
  - ORC ( tipo de dato como parquet)
 
 * Ejemplos reales

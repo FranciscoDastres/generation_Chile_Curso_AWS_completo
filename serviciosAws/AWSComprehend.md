@@ -14,8 +14,8 @@
 
 * regla final 
 # usa amazon comprenhend cuando veas
-# analisis de texto
-# sentimiento
-# entidades
-# NLP = procesamiento de lenguaje natural(es la tecnología que permite que AWS entienda texto escrito como lo haría una persona)
-# comprension de lenguaje
+ - analisis de texto
+ - sentimiento
+ - entidades
+ - NLP = procesamiento de lenguaje natural(es la tecnología que permite que AWS entienda texto escrito como lo haría una persona)
+ - comprension de lenguaje
