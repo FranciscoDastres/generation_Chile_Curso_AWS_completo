@@ -44,3 +44,10 @@
 
 * Necesitas solo hacer despliegues automatizados
  # AWS CodeDeploy
+
+
+ # Pipeline = Orquesta
+ # Build = Compila
+ # Deploy = Despliega
+ # Commit = Repo 
+

@@ -9,8 +9,8 @@
  * analisis masivo
  * renderizado
  * machine learning batch
- * ETL
- * simiulaciones
+ * ETL (Extraer transformar Cargar)
+ * Simulaciones
  * jobs que duran minutos u horas
 
 * relacion con otros servicios
@@ -23,6 +23,6 @@
 # aws batch ejecuta trabajos por lotes a gran escala, aprovisionando automaticamente la capacidad de computo necesaria y liberandola cuando finaliza la ejecucion
 
 * pregunta
-# una empresa necesita ejecutar trabajos de procesamiento que duiran varias horas
+# una empresa necesita ejecutar trabajos de procesamiento que duran varias horas
 # que servicio es el mas adecuado
 # AWS BATCH

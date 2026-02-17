@@ -1,5 +1,5 @@
 * Que es
-# es un servicio de pruebas que permite probar aplicaciones mobiles y web en dispositivos reales hospedados por AWS 
+# es un servicio de pruebas que permite probar aplicaciones moviles y web en dispositivos reales hospedados por AWS 
 
 * Para que sirve
 # Probar apps Android, IOS y web 
