@@ -42,7 +42,7 @@
   - ALB
 
 * Diferencia con otros servicios
- # Cognito → Logiin yt autenticación
+ # Cognito → Login y autenticación
  # IAM → Permisos para usuarios internos de AWS
  # AWS SOO / IAM identity Center → Acceso empresarial a cuentas AWS
 
