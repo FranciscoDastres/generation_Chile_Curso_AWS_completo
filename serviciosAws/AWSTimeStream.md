@@ -43,4 +43,4 @@
 
  # una app tiene alta latencia pior muchas conusltas repetida a RDS se necesita una solucion en memoria
   # Amazon ElasticCache
-  # Eñastoc Cache = cache en ram para acelerar apps
+  # Elastic Cache = cache en ram para acelerar apps
