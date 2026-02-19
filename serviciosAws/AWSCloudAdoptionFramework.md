@@ -1,11 +1,11 @@
 * Que es?
-# es un marco de trabajo que ayuda a empresas a planificar, preparar y ejecutar la adopcion de la nube de forma ordenada y segura
+# Es un marco de trabajo que ayuda a empresas a planificar, preparar y ejecutar la adopcion de la nube de forma ordenada y segura
  - no es servicio tecnico
  - no se despliega
  - no corre en AWS
 
-# es estrategia + gobierno + personas + tecnologia
-
+# Es estrategia + gobierno + personas + tecnologia
+# Es una guía estratégica y organizacional
 * Para que sirve
 # Migrar a la nube sin caos
 # Reducir riesgos
