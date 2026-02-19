@@ -43,3 +43,11 @@
 # Una empresa necesita acceso a ingenieros de soporte en la nube las 24 horas del día, los 7 días de la semana. ¿Cuál es el plan de AWS Support MENOS costoso que cumple este requisito?
 
 # AWS business support 
+
+* Que son los support automation workflows?
+# son herramientas automatizadas dentro de AWS premiuyn support que ayudan a
+ # diagnosticar problemas
+ # ejecutar checks automaticos
+ # Resolver incidencias comunes
+  # disponibles en business y superiores
+  

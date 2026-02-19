@@ -2,7 +2,7 @@
 # un servicio cache en memoria totalmente administrado
 # diseñado especificamente para amazon dynamoDB
 # reduce la latencia de milisegundos a microsegundos
-# Es basicamente un ElasticCache pero solo apra DynamoDB
+# Es basicamente un ElasticCache pero solo para DynamoDB
 
 * Para que sirve?
 # Para acelerar lecturas frecuentes en DynamoDB como:
