@@ -1,5 +1,5 @@
 * Que es?
-# es un marco de trabajo que ayuda a empresas a planificar preparar y ejecutar la adopcion de la nube de forma ordenada y segura
+# es un marco de trabajo que ayuda a empresas a planificar, preparar y ejecutar la adopcion de la nube de forma ordenada y segura
  - no es servicio tecnico
  - no se despliega
  - no corre en AWS
@@ -7,11 +7,11 @@
 # es estrategia + gobierno + personas + tecnologia
 
 * Para que sirve
-# migrar a la nube sin caos
-# reducir riesgos
-# alinear negocio + TI
-# acelerar adopcion cloud
-# evitar errores comunes(costos,seguridad,compliance)
+# Migrar a la nube sin caos
+# Reducir riesgos
+# Alinear negocio + TI
+# Acelerar adopcion cloud
+# Evitar errores comunes(costos,seguridad,compliance)
 
 * Como funciona
 # porque ir a la nube? 
@@ -22,12 +22,12 @@
 
 * CAF proporciona orientacion para ayudar a las organizaaciones a adoptar la nube alineado a personas procesos y tecnologia
 
-# business   porque la nube
-# people     quien la usa
-# governance quien controla
-# platform   como se construye
-# security   como se protege
-# operations como se opera
+# Business   porque la nube
+# People     quien la usa
+# Governance quien controla
+# Platform   como se construye
+# Security   como se protege
+# Operations como se opera
 
 * ¿Qué opción es una función básica del AWS Cloud Adoption Framework (AWS CAF) desde el punto de vista de las operaciones?
 # Administrar el rendimiento y la capacidad.
