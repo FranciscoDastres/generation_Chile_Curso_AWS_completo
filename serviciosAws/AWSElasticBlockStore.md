@@ -21,7 +21,7 @@
 * Como funciona?
 # Se crea un volumen EBS
 # Se adjunta instancia EC2
-# Ec2 lo ve como un disco normal
+# EC2 lo ve como un disco normal
 # Los datos persisten aunque la instancia se detenga
 # Pero esta limitado a una zona de disponibilidad (AZ)
 
