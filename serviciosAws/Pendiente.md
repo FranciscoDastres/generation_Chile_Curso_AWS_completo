@@ -126,3 +126,6 @@ Respuesta Correcta: c. AWS Systems Manager Session Manager
 Pregunta 12:
 Descripción: ¿Qué beneficio de AWS permite a los usuarios implementar una infraestructura en la nube compuesta por múltiples regiones geográficas conectadas por una red de baja latencia, alto rendimiento y redundancia?
 Respuesta Correcta: a. Alcance global
+
+hacer uno con roles dew IAM
+crea uno de roles de iam directamente
