@@ -19,3 +19,5 @@
 
 # apuntar un domino a un application load balancer sin usar ip
 # route 53
+
+# Route 53 resuelve los nombres de dominio en direcciones IP mediante registros. Para el enrutamiento de conmutación por error a un conjunto diferente de recursos, se pueden usar las políticas de enrutamiento de Route 53.
