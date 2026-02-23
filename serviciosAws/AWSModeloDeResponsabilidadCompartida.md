@@ -9,7 +9,7 @@
 # quien configura permisos IAM
 # cliente
 
-# quien mantiene el hardware fifisco de los servidores
+# quien mantiene el hardware fisico de los servidores
 # AWS
 
 # quien cifra los datos en s3
@@ -27,7 +27,7 @@
 # quien administra el hipervisor
 # AWS
 
-# quien decide si un bicker s3 es publico o privado 
+# quien decide si un bucket s3 es publico o privado  ( contenedor donde se almacenan archivos en Amazon S3)
 # cliente
 
 
