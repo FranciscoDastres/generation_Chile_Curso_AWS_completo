@@ -9,7 +9,7 @@
  # Tolerancia a fallos
 
 * Como funciona
- # Los usuarios envian tráfioco a un load balancer
+ # Los usuarios envian tráfico a un load balancer
  # ELB distribuye las solicitudes entre múltiples servidores
  # Si un servidor falla → deja de enviarle tráfico
  # Hace health checks automáticos
