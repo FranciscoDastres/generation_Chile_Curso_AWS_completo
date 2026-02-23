@@ -15,7 +15,7 @@ Su objetivo principal es ayudarte a:
 
 Amazon Macie identifica automáticamente, entre otros:
 
-- 📄 **PII (Personally Identifiable Information)**
+- 📄 **PII (Personally Identifiable Information)** ( informacion que opuede identificar directamente a una persona)
   - Nombres
   - Direcciones
   - Correos electrónicos
