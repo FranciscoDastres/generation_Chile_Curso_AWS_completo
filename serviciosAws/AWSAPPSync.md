@@ -32,7 +32,7 @@
   # Crear APis modernas para apps web y móviles
   # Sincronización en tiempo real
   # Backend para aplicaciones serverless
-  # MAnejar múltiples fuentes de datos con una sola API
+  # Manejar múltiples fuentes de datos con una sola API
 
  * Ejemplos reales:
   # App móvil que muestra datos actualizados en tiempo real
