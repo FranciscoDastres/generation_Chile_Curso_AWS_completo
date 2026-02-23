@@ -9,7 +9,7 @@
    - Que es OLAP
   # OLAP sirve para hacer consultas complejas rapido
   # Analizar datos historicos
-  # Ver informacion desde diferentes dimen siones
+  # Ver informacion desde diferentes dimensiones
   # Crear reportes dinamicos 
 
  * Para que sirve?
