@@ -60,5 +60,7 @@
   - Aplicaciones instaladas
   - Parches del sistema operativo(Si usas EC2)  
   - Configuracion de bases de datos
+  - Encriptacion de datos del lado del cliente
+  - Integridad de datos del cliente
   # Tú proteges lo que pones y configuras en la nube
-  
+
