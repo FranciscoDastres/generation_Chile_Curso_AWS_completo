@@ -1,9 +1,9 @@
 # AWS CloudFormation
 
-## Pitch
-¿Tu equipo pierde tiempo configurando manualmente la infraestructura?
+# servicio de infraestructura como codigo que permite creary administrar recursos de AWS mediante plantillas
+# ¿Tu equipo pierde tiempo configurando manualmente la infraestructura?
 
-CloudFormation automatiza y replica entornos completos mediante plantillas, reduciendo errores y acelerando despliegues.
+# CloudFormation automatiza y replica entornos completos mediante plantillas, reduciendo errores y acelerando despliegues.
 
 ## Función Principal
 Provisión de infraestructura como código mediante plantillas YAML o JSON
