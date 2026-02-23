@@ -1,30 +1,51 @@
-# AWS Compute Optimizer
+* Que es ?
+# Servicio que analiza el uso de tus recursos de computo y te recomienda configuraciones mas eficientes en costo y rendimiento
+# usa metricas de cloudwatch
+# Aplica machine learning para generar recomendaciones
 
-## Pitch
-¿Estás pagando por más recursos de los que usas?
+* para que sirve ?
+ # reducir costos
+ # detectar instancias sobredimnensionadas
+ # detectar instancias subdimensionadas
+ # mejorar rendimiento
+ # Optimizar recursos automaticamente
 
-Compute Optimizer analiza el uso real y recomienda instancias más eficientes y rentables.
+ * que recursos analiza
+  # amazon EC2
+  # Auto scalling groups
+  # EBS volumes
+  # AWS lambda
+  # ECS(FARGATE)
 
-## Función Principal
-Sugerir configuraciones óptimas para recursos basados en su uso histórico
+  | Compute Optimizer          | Trusted Advisor                     |
+# | -------------------------- | ----------------------------------- |
+# | Machine learning           | Reglas predefinidas                 |
+# | Recomendaciones detalladas | Recomendaciones generales           |
+# | Optimiza rendimiento       | Optimiza costos, seguridad, límites |
 
-## Características Clave
-- Recomendaciones automáticas
-- Visualización del impacto
-- Análisis de utilización
 
-## Casos de Uso Típicos en el Examen
-Reducir costos o mejorar rendimiento ajustando tipos de instancia, volúmenes y funciones Lambda
+* una empresa quiere reducir costos analizando el usio real de instancias EC2 y recibir recomendaciones automaticas de tamaño adecuado
+# AWS Compute optimizer
 
-## Integraciones Comunes
-- Amazon EC2
-- EBS
-- Lambda
+* Compute optimizer = recomendaciones inteligences para ajustar el tamaño y reducir costos
 
-## Palabras Clave que Suelen Aparecer en Preguntas
-- Recomendación
-- Uso
-- Tipo de instancia
 
-## Errores Comunes que el Examen Intenta Evaluar
-Confundir con Trusted Advisor o Auto Scaling
+* Que es computo ?
+ # Es la capacidad de procesamiento de una maquina para ejecutar instrucciones y realizar calculos
+ # Es la potencia de procesamiento de un sistema 
+
+ * cuando AWS habla de servicios de computo
+  # ejecutar aplicaciones
+  # procesar datos
+  # correr servidores
+  # ejecutar codigo
+
+  Ejemplo práctico
+
+# Si tienes una aplicación web:
+
+ - EC2 → cómputo
+ - S3 → almacenamiento
+ - RDS → base de datos
+
+ # Cómputo = capacidad para ejecutar y procesar aplicaciones
