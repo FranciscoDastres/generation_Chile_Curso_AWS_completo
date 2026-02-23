@@ -24,3 +24,6 @@
 # SI ES EXABITES ALGO MAS GANDES ES CON SNOWMOBILE LO DEMAS CON SNOWBALL EDGE
 
 * Correcto: Snowball Edge ofrece un dispositivo robusto y seguro para la transferencia de datos. Con los dispositivos Snowball Edge puede migrar grandes cantidades de datos transportándolos físicamente sin usar Internet. Esta es una solución mucho más rentable y rápida que intentar enviar petabytes de información a través de Internet.
+
+# storage optimized → haSTA 80 tb
+# snowball compiute optimized hasta 42 TB de capacidad utilizable
