@@ -1,5 +1,5 @@
 * Que es?
-# Es ell servicio que ofrece  asistencia técnica , guias y mejores prácticas para los clientes de AWS
+# Es el servicio que ofrece  asistencia técnica , guias y mejores prácticas para los clientes de AWS
 # No es un servicio tecnico de insfraestructura, es soporte y acompañamiento
 
 * Para que sirve
@@ -45,7 +45,7 @@
 # AWS business support 
 
 * Que son los support automation workflows?
-# son herramientas automatizadas dentro de AWS premiuyn support que ayudan a
+# son herramientas automatizadas dentro de AWS premium support que ayudan a
  # diagnosticar problemas
  # ejecutar checks automaticos
  # Resolver incidencias comunes
