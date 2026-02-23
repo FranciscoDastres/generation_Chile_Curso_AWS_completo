@@ -1,5 +1,5 @@
 * Que es?
- # Amazon Lex es un servicio para cr4ear Chatbots y asistences conversacionales
+ # Amazon Lex es un servicio para crear Chatbots y asistences conversacionales
  # Usan inteligencia Artificial (IA)
  # Permite interacción por voz o texto
  # Es la misma tecnología que usa Amazon Alexa
