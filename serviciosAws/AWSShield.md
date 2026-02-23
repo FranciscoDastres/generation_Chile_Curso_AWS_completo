@@ -13,7 +13,7 @@
 
 * shield standar
  # proteccion basica de DDOS 
- # mitigacion atuomatica
+ # mitigacion automatica
  # no requiere configuracion
  # todos lo tienen 
 
@@ -33,7 +33,7 @@
  # es preventivo y reactivo
 
 * Cuando usarlo
- # tu all es critica
+ # tu app es critica
  # no puedes permitir caidas
  # estas expuesto a internet
  # riesgo de ataques volumetricos
