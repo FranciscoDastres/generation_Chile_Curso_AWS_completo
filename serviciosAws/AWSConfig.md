@@ -5,7 +5,7 @@
 
 * para que sirve
  # detectar cambios de configuracion
- # cumlir normas
+ # cumplir normas
  # auditorias
  # evaluar reglas de seguridad
  # ver historial de recursos
