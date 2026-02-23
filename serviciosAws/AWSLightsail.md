@@ -75,7 +75,7 @@
   # Auto Scaling avanzado
   # Infraestructura empresarial grande  
 
- * Una startup necesita desplegar rápidamente uj sitio Wordpress con costo mensual predecible y mínima configuracion
+ * Una startup necesita desplegar rápidamente un sitio Wordpress con costo mensual predecible y mínima configuracion
  # AWS Lightsail
 
 # LightSail Copy	        Copia a otra región
