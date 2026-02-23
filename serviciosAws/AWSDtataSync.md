@@ -14,5 +14,5 @@
 
 * AWS DataSync automatiza y acelera la transferencia de datos entre on-premises y AWS.
 
-# una empresa quiere sincronizar datos diramente deste un file server local y amazon EFS
+# una empresa quiere sincronizar datos directamente deste un file server local y amazon EFS
 # datasync
