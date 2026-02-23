@@ -37,7 +37,7 @@
 
 * Diferencia con otros servicios de seguridad
  # GuardDuty → Detecta amenazas
- # AWS Inspector → Escanea VUlnerabilidades
+ # AWS Inspector → Escanea Vulnerabilidades
  # AWS Config → Evalúa configuraciones
  # Security Hub → Centraliza hallazgos
  # Shield → Protección contra DDoS
