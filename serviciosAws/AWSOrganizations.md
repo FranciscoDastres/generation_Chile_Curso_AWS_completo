@@ -521,3 +521,9 @@ aws organizations invite-account-to-organization --target Id=123456789012,Type=A
 - Organizations + Config + CloudTrail = Gobernanza completa
 
 **Cuándo usarlo**: Múltiples cuentas AWS, necesidad de políticas centralizadas, consolidación de facturación, segregación organizacional.
+
+# permite agruptar multipels cuentas WS
+# Crear una cuenta de aministracion / payer account
+# habilitar facturacion consolodidada
+# aplicar politicas centralizadas
+# La cuenta dministrativa actua como pagador principal y puede ver los repotes de facturacion de todas las cuentas miembro
