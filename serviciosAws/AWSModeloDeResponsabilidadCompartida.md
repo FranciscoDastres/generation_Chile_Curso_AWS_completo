@@ -38,3 +38,27 @@
 - Físico / infraestructura / datacenter → AWS
 
 - Configuración / accesos / datos → Cliente **
+
+* Seguridad de la nube
+ # Esto incluye todo lo que corresponde a la infraestructura que AWS administra
+  - Centros de datos físicos
+  - Hardware
+  - Redes
+  - Servidores
+  - Virtualización
+  - Infraestructura Global
+  - Servicios administrados (parte física y base del servicio)
+  # AWS protege la infraestructura que hace funcionar la nube
+
+ * Seguridad en la nube
+ # Esto depende de como uses los servicios
+  - Configuracion de IAM (usuarios y permisos)
+  - Contraseñas y accesos
+  - Configuracion de firewall(Security Groups)
+  - Cifrado de datos
+  - Sistemas operaticos(en EC2)
+  - Aplicaciones instaladas
+  - Parches del sistema operativo(Si usas EC2)  
+  - Configuracion de bases de datos
+  # Tú proteges lo que pones y configuras en la nube
+  
