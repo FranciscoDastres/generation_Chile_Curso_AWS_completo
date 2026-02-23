@@ -1,5 +1,5 @@
 * Que es?
-# es un framework ( guia de buenas practicas ) que sirve para sieñar, evaluar y mejorar arquitectura de AWS
+# es un framework ( guia de buenas practicas ) que sirve para diseñar, evaluar y mejorar arquitectura de AWS
 # no es un servicio
 # no se instala
 # no cuesta dinero
