@@ -1,12 +1,13 @@
 * Que es
 # es un servicio que llega infraestructura de AWS fisicamente a tu datacenter on-premises
-
+# es literalmente hardware de AWS instalado en tu empresa
+# funciona como una extension de la region de AWS
 * Para que sirve
 # Ejecutar servicios AWS localmente
-# Mantener baja latencia cion sistemas on premise
+# Mantener baja latencia con sistemas on premise
 # Cumplir requisitos regulatorios o legales
 # Tener experiencia AWS Consistente(api consola.CLI)
-
+# para cumpir requisitos de baja latencia
 * como funciona
 # AWS instla racks de outpost en tu datacenter
 # AWS gestiona el hardware
