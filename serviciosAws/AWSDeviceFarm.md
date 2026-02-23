@@ -1,6 +1,7 @@
 * Que es
 # es un servicio de pruebas que permite probar aplicaciones moviles y web en dispositivos reales hospedados por AWS 
-
+# no son emuladores
+# son dispositivos fisicos reales alojados por AWS
 * Para que sirve
 # Probar apps Android, IOS y web 
 # Detectar errores según 
@@ -25,7 +26,7 @@
   # cuando tienes una app movil
   # necesitas probar muchos dispotivitos
   # quieres automatizar pruebas
-  # no queires comprar ni mantener telefonos fisicos
+  # no quieres comprar ni mantener telefonos fisicos
 
  * Cuando no usarlo
  # backend, apis, infraestructura, carga o pruebas de stresss
@@ -36,3 +37,7 @@
  # S3
  # IAM (permisos)
  # CloudWatch (log directos)
+ 
+ # Frase para memorizar
+
+ - Device Farm = pruebas de apps móviles en dispositivos reales en la nube
