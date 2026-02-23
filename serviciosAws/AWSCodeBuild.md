@@ -14,7 +14,7 @@
 * Ejemplos reales:
  # Compilar una app java con Maven
  # Ejecutar test en una app Node.js
- # Construir una iamgen Docker y subirla a ECR
+ # Construir una imagen Docker y subirla a ECR
  # Generar un archivo .zip para Lambda
 
 * Como funciona? 
