@@ -2,7 +2,7 @@
  # un servicio adminstrado para crear APis GraphQL
  # Permite sincronización de datos en tiempo real
  # Serverless y escalable automáticamente
- # Es una API inteligente basa en GraphQL
+ # Es una API inteligente basada  en GraphQL
 
 * Extra
  # Application Programming Interface = Mecanismo que permite que dos sistemas se comuniquen entre si
