@@ -32,7 +32,7 @@
 * Ejemplos reales
  # Varias EC2 detras de un Load Balancer comparten archivos
  # Servidores web que necesitan acceso a las mismas imágenes
- # Aplicación que escala automáticamente y necesita datos comaprtidos
+ # Aplicación que escala automáticamente y necesita datos compartidos
  # Cluster Linux con almacenamiento común
 
 * Como funciona?
@@ -59,7 +59,7 @@
  # Necesitas almacenamiento persistente para una sola instancia
  * EBS
 
- # Necesitas sistema de archivos Widnws con Active Directory
+ # Necesitas sistema de archivos Windows con Active Directory
  * FSx for Windows  
 
 # Clases de almacenamiento en EFS
