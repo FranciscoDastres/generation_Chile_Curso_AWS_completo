@@ -48,8 +48,3 @@ N°	Nombre
 7	Sean, Rourke
 8	Troy, Avatar
 
-Consulte la tabla country para arrojar un conjunto de registros basado en el siguiente requisito.
-
-Escriba una consulta que arroje filas que tienen Micronesian/Caribbean como nombre en la columna de región. El resultado debe dividir la región como Micronesia y Caribbean en dos columnas separadas: una llamada Region Name 1 y una llamada Region Name 2.
-SELECT Name, substring_index(Region, "/", 1) as "Region Name 1",substring_index(region, "/", -1) as "Region Name 2" FROM world.country WHERE Region = "Micronesia/Caribbean";
-

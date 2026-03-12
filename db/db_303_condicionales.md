@@ -283,18 +283,3 @@ Los comodines principales son:
 
 ---
 
-## 1.1 Patrones más usados
-
-### Buscar al inicio
-```sql
-WHERE columna LIKE 'art%'
-
-# 📌 Expresiones Regulares (REGEXP) en SQL
-
-Las **expresiones regulares** permiten hacer búsquedas más avanzadas que `LIKE`, detectando patrones complejos dentro del texto.
-
----
-
-## 🔍 Sintaxis general
-```sql
-WHERE columna REGEXP 'patrón';

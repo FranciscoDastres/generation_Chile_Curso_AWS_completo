@@ -170,5 +170,3 @@ FROM ventas;
 * Agregados JSON → `JSON_ARRAYAGG`, `JSON_OBJECTAGG`
 
 ---
-
-Si quieres, puedo crear otro archivo `.md` para `SUBSTRING()`, `CONCAT()` o para cualquier otro tema de SQL.
